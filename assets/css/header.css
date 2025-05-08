@@ -2,6 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
+    padding: 0 20px;
 }
 
 .medpro-header>.header-left {
@@ -14,16 +15,12 @@
     height: 38px;
 }
 
-.medpro-header>.header-right {
-    padding: 0 10px !important;
-}
-
 .medpro-header>.header-right>.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e4e4e4;
-    padding: 20px !important;
+    padding: 20px;
 }
 
 .medpro-header>.header-right>.header>.social {
@@ -36,7 +33,7 @@
 }
 
 .medpro-header>.header-right>.header>.social>div:hover a {
-    color:#00b5f1;
+    color: #00b5f1;
 }
 
 .medpro-header>.header-right>.header>.social>div:nth-of-type(n+2)::after {
@@ -65,7 +62,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    padding-right: 50px !important;
+    padding-right: 50px;
 }
 
 .medpro-header>.header-right>.header>.action-bar button {
@@ -73,10 +70,11 @@
     justify-content: end;
     align-items: center;
     gap: 10px;
-    padding: 10px 15px !important;
+    padding: 10px 15px;
     align-content: center;
     border-radius: 30px;
     border: none;
+
 }
 
 .medpro-header>.header-right>.header>.action-bar button>span {
@@ -98,26 +96,26 @@
 .medpro-header .button-login>button {
     color: #00b5f1;
     background-color: white;
-    border: 1px solid #00b5f1 !important;
+    border: 1px solid #00b5f1;
 }
 
 .medpro-header .button-login>button:hover {
     color: white;
-    background: linear-gradient(83.63deg,#00b5f1 33.34%,#00e0ff 113.91%);
+    background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%);
 }
 
 .medpro-header .button-language button {
-    width: 70px;
+    width: 100%;
     height: 39px;
-    padding: unset !important;
+    padding: unset;
     display: flex;
     justify-content: center;
+    border-radius: 10px !important;
     background-color: white;
-    border-radius: 5px !important;
     transition: border 0.2s ease;
 }
 
-.medpro-header .button-language button:hover {
+.medpro-header .button-language:hover button {
     border: 1px solid #00b5f1 !important;
 }
 
@@ -148,7 +146,7 @@
 .medpro-header .button-language .language-menu>ul>li {
     display: flex;
     align-items: center;
-    padding: 13px 15px !important;
+    padding: 13px 15px;
     gap: 8px;
 }
 
@@ -179,7 +177,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
-    padding: 5px 20px !important;
+    padding: 5px 20px;
 }
 
 .medpro-header>.header-right>.body>.contact {
@@ -200,118 +198,51 @@
 .medpro-header>.header-right>.body>.contact .info a>p {
     font-size: 25px;
     color: #ffb54a;
-    font-weight:500;
-}
-
-.medpro-header>.header-right>.body nav .menu {
-    height: 60px;
-    display: flex;
-    align-items: center;
-}
-
-.medpro-header>.header-right>.body nav .menu>li {
-    position: relative;
-    padding: 20px 10px !important;
-    height: 60px;
-    z-index: 10;
-}
-
-.medpro-header>.header-right>.body nav .menu>li:hover {
-    border-bottom: 2px solid #00b5f1;
-}
-
-.medpro-header>.header-right>.body nav .menu>li>a {
-    color:  #003553;
     font-weight: 500;
-    transition: color 0.2s linear;
 }
 
-.medpro-header>.header-right>.body nav .menu>li:hover>a {
-    color: #00b5f1;
-}
+/* responsive */
+@media (max-width: 1128px) {
+    .medpro-header>.header-right>.header>.social {
+        display: none;
+    }
 
-.medpro-header>.header-right>.body nav .menu>li .sub-menu {
-    width: 300px;
-    height: 150%;
-    position: absolute;
-    top: 100%;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.5s ease;
-}
+    .medpro-header>.header-right>.header>.action-bar>.button-app,
+    .medpro-header>.header-right>.header>.action-bar>.button-login {
+        display: none;
+    }
 
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div {
-    position: absolute;
-    top: 10px;
-    left: -12px;
-    width: 200px;
-    box-shadow: 0 1px 7px 1px rgba(0, 0, 0, .08);
-    background: hsla(0, 0%, 100%, 1);
-    border-radius: 10px;
-    transform: translateY(100px);
-    transition: transform 0.5s;
-}
+    .medpro-header>.header-right>.body {
+        display: none;
+    }
 
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div>li {
-    padding: 15px 20px !important;
-    position: relative;
-    width: 100%;
-    word-wrap: break-word;
-}
+    .medpro-header>.header-right>.header {
+        border-bottom: unset;
+        justify-content: end;
+        padding: 15px;
+    }
 
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div>li>a {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    font-size: 13px;
-    color: #003553;
-}
+    .medpro-header>.header-left img {
+        width: 120px;
+        height: 50px;
+    }
 
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div>li>a span {
-    width: 100%;
-}
+    .medpro-header>.header-right .button-menu-mobile {
+        display: block;
+    }
 
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div>li:first-child:hover {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
+    .medpro-header>.header-right .button-menu-mobile button {
+        background: transparent;
+    }
 
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div>li:last-child:hover {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
+    .medpro-header>.header-right>.header>.action-bar {
+        gap: unset;
+        padding-right: 0px;
+    }
 
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div>li:hover {
-    background-color: #e6f2ff;
-}
+    .medpro-header>.header-right>.header>.action-bar button {
+        padding: 0px 5px;
+        background: transparent;
+    }
 
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div>li:hover>a {
-    color: #00b5f1;
-}
-
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div>li>.sub-menu {
-    position: absolute;
-    top: 0px;
-    left: 107%;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s ease;
-}
-
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div>li:hover>.sub-menu {
-    opacity: 1;
-    visibility: visible;
-}
-
-.medpro-header>.header-right>.body nav .menu>li .sub-menu>div>li:hover>.sub-menu>div {
-    transform: translateY(0px);
-}
-
-.medpro-header>.header-right>.body nav .menu>li:hover>.sub-menu {
-    opacity: 1;
-    visibility: visible;
-}
-
-.medpro-header>.header-right>.body nav .menu>li:hover>.sub-menu>div {
-    transform: translateY(0px);
 }

@@ -4,7 +4,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif !important;
+    font-family: var(--font-primary);
+}
+
+/* Reset font cho các thẻ cụ thể */
+body, button, input, select, textarea {
+    font-family: var(--font-primary);
+}
+
+/* Reset font cho các thẻ heading */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
 }
 
 ul {
@@ -20,13 +30,28 @@ a {
 button {
     cursor: pointer;
 }
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
 
 :root {
+    /* ===== Typography ===== */
+    /* Font Family */
+    --font-primary: 'Roboto', sans-serif;    /* Font chính của website */
+
     /* ===== Hệ Thống Màu Sắc ===== */
     /* Màu Chính */
     --color-primary: #00b5f1;                /* Màu xanh dương chính của website */
     --color-primary-dark: linear-gradient(86.64deg, #01b5f1 33.96%, #0084e9 137.73%);  /* Gradient màu xanh dương đậm */
     --color-primary-light: #e6f2ff;          /* Màu xanh dương nhạt cho nền */
+    --color-primary-garadient: linear-gradient(40deg, #00b5f1 0, #00e0ff 100%); /* Gradient màu xanh dương cho các phần nổi bật */
     --color-accent: white;                   /* Màu trắng làm điểm nhấn */
 
     /* Màu Phụ */
