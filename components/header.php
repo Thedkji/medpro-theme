@@ -1,6 +1,6 @@
 <div class="header-left">
     <a href="###">
-        <img src="/assets/imgs/header_logo.svg" alt="" />
+        <img src="./assets/imgs/header_logo.svg" alt="" />
     </a>
 </div>
 
@@ -60,7 +60,7 @@
                         <span>
                             <img
                                 alt="Icon Zalo"
-                                src="/assets/imgs/iconZalo.svg"
+                                src="./assets/imgs/iconZalo.svg"
                                 width="16"
                                 height="16"
                                 decoding="async"
@@ -140,7 +140,7 @@
                 <button
                     type="button"
                     class="ant-btn ant-btn-default styles_btnAntd__zap7d ant-dropdown-trigger styles_btnLanguage__8ISvU">
-                    <img alt="VN" src="/assets/imgs/VN.svg" />
+                    <img alt="VN" src="./assets/imgs/VN.svg" />
                     <svg
                         stroke="currentColor"
                         fill="currentColor"
@@ -157,12 +157,12 @@
                 <div class="language-menu">
                     <ul>
                         <li class="active">
-                            <img alt="VN" src="/assets/imgs/VN.svg" />
+                            <img alt="VN" src="./assets/imgs/VN.svg" />
                             <a href="###">Tiếng Việt</a>
                         </li>
 
                         <li>
-                            <img alt="VN" src="/assets/imgs/VN.svg" />
+                            <img alt="VN" src="./assets/imgs/VN.svg" />
                             <a href="###">Tiếng Anh</a>
                         </li>
                     </ul>
@@ -174,7 +174,7 @@
     <div class="body">
         <div class="contact">
             <div class="logo">
-                <img src="/assets/imgs/hp.svg" alt="" />
+                <img src="./assets/imgs/hp.svg" alt="" />
             </div>
 
             <div class="info">
