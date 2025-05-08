@@ -1,11 +1,27 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Bắt tất cả svg trong menu, bất kể cấp nào
     let menuToggles = document.querySelectorAll('.medpro-header .menu-mobile svg');
+    let menuMobile = document.querySelector('.medpro-header .menu-mobile')
+    let btnMenuOpen = document.querySelector('.medpro-header .menu-mobile-btn');
+    let btnMenuClose = document.querySelector('.medpro-header .btn-close-mobile svg');
+    let overlay = document.querySelector('.overlay');
+    btnMenuOpen.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        menuMobile.style.transform = "translateX(0)";
+        overlay.style.display = "block";
+    })
+    btnMenuClose.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        menuMobile.style.transform = "translateX(1000px)";
+        overlay.style.display = "none";
+    })
 
     menuToggles.forEach((svg) => {
         svg.addEventListener('click', (e) => {
             e.preventDefault();
-            e.stopPropagation(); // Ngăn chặn nổi bọt nếu cần
+            e.stopPropagation();
 
             // Tìm phần tử cha gần nhất là <li>
             let li = e.target.closest('li');
@@ -41,7 +57,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 `;
             }
-
         });
     });
+    
+    overlay.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        menuMobile.style.transform = "translateX(1000px)";
+        overlay.style.display = "none";
+    })
+
 });
