@@ -11,10 +11,27 @@
 
 <body>
   <header class="medpro-header">
-    <?php include 'layouts/components/header.php'; ?>
+    <?php include_once 'components/header.php'; ?>
   </header>
 
-  <main></main>
+  <main>
+    <?php
+    $page = isset($_GET['page']) && $_GET['page'] !== "" ? $_GET['page'] : 'home';
+
+    switch ($page) {
+      case "home":
+        include_once 'view/home/home.php';
+        break;
+      case "about":
+        include_once 'view/about/about.php';
+        break;
+      default:
+        include_once 'view/home/home.php';
+        break;
+    }
+    ?>
+
+  </main>
 
   <footer></footer>
 </body>

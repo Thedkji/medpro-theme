@@ -1,0 +1,82 @@
+:root {
+    /* Main UI Colors */
+    --text-heading: #003553;      /* Màu chữ cho tiêu đề - Navy */
+    --text-body: #333333;         /* Màu chữ cho nội dung chính */
+    --text-muted: #6c757d;        /* Màu chữ cho nội dung phụ */
+    --text-light: #ffffff;        /* Màu chữ sáng trên nền tối */
+
+    /* Interactive Elements */
+    --btn-primary: #00b5f1;       /* Màu nút chính - Blue */
+    --btn-primary-hover: #0099cc; /* Màu hover nút chính */
+    --btn-navy: #003553;          /* Màu nút navy */
+    --btn-navy-hover: #002233;    /* Màu hover nút navy */
+    --link-primary: #00b5f1;      /* Màu link chính */
+    --link-hover: #0099cc;        /* Màu hover link */
+
+    /* Status Indicators */
+    --status-success: #28a745;    /* Màu thông báo thành công */
+    --status-error: #dc3545;      /* Màu thông báo lỗi */
+    --status-warning: #ffb54a;    /* Màu cảnh báo */
+    --status-info: #17a2b8;       /* Màu thông tin */
+
+    /* Background Colors */
+    --bg-main: #ffffff;           /* Màu nền chính */
+    --bg-navy: #003553;           /* Màu nền navy */
+    --bg-accent: #ffb54a;         /* Màu nền nhấn mạnh */
+    --bg-dark: #343a40;           /* Màu nền tối */
+
+    /* Border Colors */
+    --border-light: #e4e4e4;      /* Màu viền nhẹ */
+    --border-medium: #dee2e6;     /* Màu viền trung bình */
+    --border-dark: #adb5bd;       /* Màu viền đậm */
+
+    /* Border Radius */
+    --radius-small: 4px;          /* Bo góc nhỏ */
+    --radius-medium: 8px;         /* Bo góc trung bình */
+    --radius-large: 12px;         /* Bo góc lớn */
+
+    /* Text Styles */
+    --font-main: 'Roboto', sans-serif;
+    --text-tiny: 0.75rem;         /* 12px - Chữ rất nhỏ */
+    --text-small: 0.875rem;       /* 14px - Chữ nhỏ */
+    --text-base: 1rem;            /* 16px - Chữ mặc định */
+    --text-medium: 1.125rem;      /* 18px - Chữ trung bình */
+    --text-large: 1.25rem;        /* 20px - Chữ lớn */
+    --text-xlarge: 1.5rem;        /* 24px - Chữ rất lớn */
+    --text-2xlarge: 1.875rem;     /* 30px - Chữ cực lớn */
+    --text-3xlarge: 2.25rem;      /* 36px - Chữ siêu lớn */
+
+    /* Font Weights */
+    --weight-normal: 400;         /* Độ đậm thường */
+    --weight-medium: 500;         /* Độ đậm trung bình */
+    --weight-semibold: 600;       /* Độ đậm bán đậm */
+    --weight-bold: 700;           /* Độ đậm đậm */
+    --weight-black: 800;          /* Độ đậm đen */
+
+    /* Layout Spacing */
+    --space-2xs: 0.25rem;         /* 4px - Khoảng cách rất nhỏ */
+    --space-xs: 0.5rem;           /* 8px - Khoảng cách nhỏ */
+    --space-sm: 1rem;             /* 16px - Khoảng cách trung bình nhỏ */
+    --space-md: 1.5rem;           /* 24px - Khoảng cách trung bình */
+    --space-lg: 2rem;             /* 32px - Khoảng cách lớn */
+    --space-xl: 3rem;             /* 48px - Khoảng cách rất lớn */
+
+    /* Elevation Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);    /* Đổ bóng nhẹ */
+    --shadow-md: 0 1px 7px 1px rgba(0, 0, 0, 0.08); /* Đổ bóng trung bình */
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1); /* Đổ bóng đậm */
+
+    /* Animation Timing */
+    --duration-quick: 150ms ease;  /* Chuyển động nhanh */
+    --duration-normal: 300ms ease; /* Chuyển động bình thường */
+    --duration-slow: 500ms ease;   /* Chuyển động chậm */
+
+    /* Layer Management */
+    --layer-dropdown: 1000;        /* Lớp dropdown menu */
+    --layer-sticky: 1020;          /* Lớp sticky header */
+    --layer-fixed: 1030;           /* Lớp fixed elements */
+    --layer-modal-bg: 1040;        /* Lớp nền modal */
+    --layer-modal: 1050;           /* Lớp modal */
+    --layer-popover: 1060;         /* Lớp popover */
+    --layer-tooltip: 1070;         /* Lớp tooltip */
+} 
