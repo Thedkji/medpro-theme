@@ -11,10 +11,11 @@
 
 <body>
   <?php
+  include_once './env.php';
   $page = isset($_GET['page']) && $_GET['page'] !== "" ? $_GET['page'] : 'home';
-  $url = "http://localhost/medpro-theme/";
+  $url = URL;
   ?>
-  
+
   <header class="medpro-header">
     <?php include_once 'components/header.php'; ?>
   </header>
