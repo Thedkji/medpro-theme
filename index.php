@@ -10,28 +10,29 @@
 </head>
 
 <body>
-  <div class="overlay"></div>
+  <?php
+  $page = isset($_GET['page']) && $_GET['page'] !== "" ? $_GET['page'] : 'home';
+  $url = "http://localhost/medpro-theme/";
+  ?>
+  
   <header class="medpro-header">
     <?php include_once 'components/header.php'; ?>
   </header>
 
   <main>
     <?php
-    $page = isset($_GET['page']) && $_GET['page'] !== "" ? $_GET['page'] : 'home';
-
     switch ($page) {
       case "home":
         include_once 'view/home/home.php';
         break;
-      case "about":
-        include_once 'view/about/about.php';
+      case "business-health-check":
+        include_once 'view/business-health-check/index.php';
         break;
       default:
         include_once 'view/home/home.php';
         break;
     }
     ?>
-
   </main>
 
   <footer></footer>
