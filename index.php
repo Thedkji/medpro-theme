@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <div class="overlay"></div>
   <header class="medpro-header">
     <?php include_once 'components/header.php'; ?>
   </header>
