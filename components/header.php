@@ -1,5 +1,5 @@
 <div class="header-left">
-    <a href="###">
+    <a href="<?php echo $url; ?>?page=home">
         <img src="./assets/imgs/header_logo.svg" alt="" />
     </a>
 </div>
@@ -401,7 +401,7 @@
                 </li>
 
                 <li>
-                    <a href="###">
+                    <a href="<?php echo $url; ?>?page=business-health-check">
                         <span>Khám sức khỏe doanh nghiệp</span>
                         <svg
                             stroke="currentColor"
