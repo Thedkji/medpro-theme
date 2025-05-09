@@ -392,6 +392,56 @@
         </div>
     </div>
     <!-- end tư vấn -->
-</div>
 
+    <!-- quy trình tu medpro -->
+    <div id="quy-trinh-tu-medpro">
+        <div class="styles_wrapper__glkE6" id="quytrinh">
+            <div class="styles_highlightTitle__WH31a">
+                <h3>Vì Sao nên chọn đăng ký khám <br> sức khỏe doanh nghiệp qua medpro?</h3>
+            </div>
+            <div class="styles_highlight__sDKJG">
+                <div class="styles_tableWrapper__wRpiA">
+                    <div class="styles_comparisonContainer__MrLzg">
+                        <div class="styles_headerRow__qd3TX">
+                            <div class="styles_contentCell__qAOtY styles_empty__fkoF_"></div>
+                            <div class="styles_contentCell__qAOtY styles_selfContact__Mn3aW">Tự liên hệ bệnh viện</div>
+                            <div class="styles_contentCell__qAOtY styles_medpro__3EbzZ">Đăng ký qua Medpro</div>
+                            <div class="styles_contentCell__qAOtY styles_dataEmpty___YCvW"></div>
+                        </div>
+                        <div class="styles_contentRow__H3RkO">
+                            <div class="styles_contentCell__qAOtY styles_category__BQLxY">Đặt lịch khám</div>
+                            <div class="styles_contentCell__qAOtY styles_dataOne__PMRDm">Khó điều phối, dễ bị trễ lịch</div>
+                            <div class="styles_contentCell__qAOtY styles_dataTwo__3tc33">Sắp xếp lịch nhanh chóng, có ưu tiên</div>
+                            <div class="styles_contentCell__qAOtY styles_dataEmpty___YCvW"></div>
+                        </div>
+                        <div class="styles_contentRow__H3RkO">
+                            <div class="styles_contentCell__qAOtY styles_category__BQLxY">Quy trình thủ tục</div>
+                            <div class="styles_contentCell__qAOtY styles_dataOne__PMRDm">Mất nhiều thời gian tự xử lý</div>
+                            <div class="styles_contentCell__qAOtY styles_dataTwo__3tc33">Medpro hỗ trợ toàn bộ thủ tục</div>
+                            <div class="styles_contentCell__qAOtY styles_dataEmpty___YCvW"></div>
+                        </div>
+                        <div class="styles_contentRow__H3RkO">
+                            <div class="styles_contentCell__qAOtY styles_category__BQLxY">Hỗ trợ trong quá trình khám</div>
+                            <div class="styles_contentCell__qAOtY styles_dataOne__PMRDm">Không có hướng dẫn, dễ ra chậm trễ</div>
+                            <div class="styles_contentCell__qAOtY styles_dataTwo__3tc33">Có nhân viên hỗ trợ, xử lý phát sinh</div>
+                            <div class="styles_contentCell__qAOtY styles_dataEmpty___YCvW"></div>
+                        </div>
+                        <div class="styles_contentRow__H3RkO">
+                            <div class="styles_contentCell__qAOtY styles_category__BQLxY">Nhận kết quả</div>
+                            <div class="styles_contentCell__qAOtY styles_dataOne__PMRDm">Rời rạc, khó theo dõi</div>
+                            <div class="styles_contentCell__qAOtY styles_dataTwo__3tc33">Báo cáo tổng hợp, tư vấn chuyên sâu</div>
+                            <div class="styles_contentCell__qAOtY styles_dataEmpty___YCvW"></div>
+                        </div>
+                        <div class="styles_contentRow__H3RkO">
+                            <div class="styles_contentCell__qAOtY styles_category__BQLxY">Chi phí</div>
+                            <div class="styles_contentCell__qAOtY styles_dataOne__PMRDm">Không có chiết khấu, giá cao hơn</div>
+                            <div class="styles_contentCell__qAOtY styles_dataTwo__3tc33">Hưởng chiết khấu từ bệnh viện đối tác</div>
+                            <div class="styles_contentCell__qAOtY styles_dataEmpty___YCvW"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end quy trình tu medpro -->
 
