@@ -128,3 +128,13 @@
 .medpro-header>.header-right .button-menu-mobile {
     display: none;
 }
+
+@media (max-width: 1128px) {
+    .medpro-header>.header-right .button-menu-mobile {
+        display: block;
+    }
+
+    .medpro-header>.header-right .button-menu-mobile button {
+        background: transparent;
+    }
+}
