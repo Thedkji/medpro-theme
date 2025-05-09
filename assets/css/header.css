@@ -85,6 +85,7 @@
 .medpro-header .button-app>button {
     color: white;
     background-color: #ffb54a;
+    transition: all 0.5s ease;
 }
 
 .medpro-header .button-app>button:hover {
@@ -97,6 +98,7 @@
     color: #00b5f1;
     background-color: white;
     border: 1px solid #00b5f1;
+    transition: all 0.5s ease;
 }
 
 .medpro-header .button-login>button:hover {
@@ -110,13 +112,15 @@
     padding: unset;
     display: flex;
     justify-content: center;
-    border-radius: 10px !important;
     background-color: white;
-    transition: border 0.2s ease;
+    border: 1px solid  transparent !important;
+    border-radius: unset !important;
+    transition: border 0.3s ease, border-radius 0.5s ease;
 }
 
 .medpro-header .button-language:hover button {
     border: 1px solid #00b5f1 !important;
+    border-radius: 10px !important;
 }
 
 .medpro-header .button-language {
@@ -225,14 +229,6 @@
     .medpro-header>.header-left img {
         width: 120px;
         height: 50px;
-    }
-
-    .medpro-header>.header-right .button-menu-mobile {
-        display: block;
-    }
-
-    .medpro-header>.header-right .button-menu-mobile button {
-        background: transparent;
     }
 
     .medpro-header>.header-right>.header>.action-bar {
