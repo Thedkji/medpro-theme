@@ -24,6 +24,16 @@ h4,
 h5,
 h6 {
     font-family: var(--font-primary);
+    color: var(--color-secondary);
+}
+
+p,
+span {
+    color: var(--color-secondary);
+}
+
+h2 {
+    font-size: var(--fs-5xl);
 }
 
 ul {
@@ -52,7 +62,7 @@ button {
 }
 
 .container {
-    padding: 0 120px;
+    padding: 0 180px;
 }
 
 .swiper-button-next::after,
@@ -88,4 +98,34 @@ button {
     left: 1px;
     width: 20px;
     height: 20px;
+}
+
+.relative {
+    position: relative;
+}
+.relative .swiper-button-prev{
+    left: 130px;
+    top: 60%;
+}
+.relative .swiper-button-next{
+    right: 130px;
+    top: 60%;
+}
+
+body {
+    height: 100000px;
+}
+
+/* luôn luôn đặt 1 thẻ div có class .bg-div-content ở dưới bg-content  */
+.bg-div-content {
+    background: linear-gradient(0deg, #fff, #ebf2ff);
+    height: 68.15px;
+}
+.bg-div-content2 {
+    background: linear-gradient(180deg,#fff,#ebf2ff);
+    height: 68.15px;
+}
+
+.bg-content {
+    background: linear-gradient(180deg, #fff, #ebf2ff);
 }

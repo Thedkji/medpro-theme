@@ -1,0 +1,29 @@
+.view-all {
+    padding: 20px 0;
+    height: 40px;
+}
+
+.view-all button {
+    width: 15%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 10px;
+    padding-block: 20px;
+    transition: border 0.3s ease, border-radius 0.3s ease;
+}
+
+.view-all button span {
+    color: var(--color-primary);
+    font-size: var(--fs-xl);
+}
+
+.view-all button:hover {
+    border: 1px solid var(--color-primary);
+    border-radius: var(--radius-base);
+}

@@ -5,7 +5,6 @@
 <script src="./assets/js/home/banner-home/text-typing-search.js"></script>
 <script src="./assets/js/home/list-banner-icon.js"></script>
 <script src="./assets/js/home/container-item1.js"></script>
-<script src="./assets/js/home/container-item/container-item2.js"></script>
 
 <div class="announcement-bar">
     <div class="announcement-bar-content" id="announcementBarContent">
@@ -584,7 +583,14 @@
 
         <?php include('components/navigation-swiper.php') ?>
 
-        <?php include('components/btn/view-all.php') ?>
+        <div class="view-all">
+            <a href="#">
+                <button>
+                    <span>Xem tất cả</span>
+                    <img src="./assets/imgs/direction-left.svg" alt="">
+                </button>
+            </a>
+        </div>
     </div>
 
     <div class="bg-div-content"></div>
@@ -592,365 +598,69 @@
         <?php include('components/banner-advertisement/banner-advertisement2.php') ?>
     </div>
 
+    <div class="bg-div-content2"></div>
+
     <div class="bg-content">
-        <div class="container-item2 container relative">
-            <h2 class="title">Bác sĩ TƯ VẤN khám bệnh qua video</h2>
+        <div class="container-item2">
+            <h2>Bác sĩ TƯ VẤN khám bệnh qua video</h2>
 
-            <div class="content-container swiper">
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <div class="content-item">
-                            <a href="###">
-                                <div class="img">
-                                    <img src="./assets/imgs/0478ff2f-00fd-478a-a52f-49396cf6ac75-bs_traaoan_thaaa_oanh.webp" alt="">
-                                </div>
-
-                                <div class="rate">
-                                    <div>
-                                        <span>
-                                            Đánh giá:
-                                            <span>
-                                                4.3
-                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="#FFB54A" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
-                                                    <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
-                                                </svg>
-                                            </span>
-                                        </span>
-                                    </div>
-
-                                    <div>
-                                        <span>Lượt khám:</span>
-                                        <span>
-                                            38
-                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="#FFB54A" height="15" width="15" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
-                                                <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="content">
-                                    <div class="title">
-                                        <h2>Ths BS.</h2>
-                                        <h2>Trần Thị Oanh - BV Hùng Vương</h2>
-                                    </div>
-
-                                    <div class="sub-content">
-                                        <div>
-                                            <img src="./assets/imgs/subject.svg" alt="">
-                                            Sản khoa
-                                        </div>
-                                        <div>
-                                            <img src="./assets/imgs/dollar.svg" alt="">
-                                            150.000đ
-                                        </div>
-                                        <div>
-                                            <img src="./assets/imgs/hospital.svg" alt="">
-                                            Bác sĩ Chuyên Khoa
-                                        </div>
-                                    </div>
-
-                                    <div class="btn">
-                                        <button>Tư vấn ngay</button>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="content-item">
-                            <a href="###">
-                                <div class="img">
-                                    <img src="./assets/imgs/0478ff2f-00fd-478a-a52f-49396cf6ac75-bs_traaoan_thaaa_oanh.webp" alt="">
-                                </div>
-
-                                <div class="rate">
-                                    <div>
-                                        <span>
-                                            Đánh giá:
-                                            <span>
-                                                4.3
-                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="#FFB54A" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
-                                                    <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
-                                                </svg>
-                                            </span>
-                                        </span>
-                                    </div>
-
-                                    <div>
-                                        <span>Lượt khám:</span>
-                                        <span>
-                                            38
-                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="#FFB54A" height="15" width="15" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
-                                                <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="content">
-                                    <div class="title">
-                                        <h2>Ths BS.</h2>
-                                        <h2>Trần Thị Oanh - BV Hùng Vương</h2>
-                                    </div>
-
-                                    <div class="sub-content">
-                                        <div>
-                                            <img src="./assets/imgs/subject.svg" alt="">
-                                            Sản khoa
-                                        </div>
-                                        <div>
-                                            <img src="./assets/imgs/dollar.svg" alt="">
-                                            150.000đ
-                                        </div>
-                                        <div>
-                                            <img src="./assets/imgs/hospital.svg" alt="">
-                                            Bác sĩ Chuyên Khoa
-                                        </div>
-                                    </div>
-
-                                    <div class="btn">
-                                        <button>Tư vấn ngay</button>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="content-item">
-                            <a href="###">
-                                <div class="img">
-                                    <img src="./assets/imgs/0478ff2f-00fd-478a-a52f-49396cf6ac75-bs_traaoan_thaaa_oanh.webp" alt="">
-                                </div>
-
-                                <div class="rate">
-                                    <div>
-                                        <span>
-                                            Đánh giá:
-                                            <span>
-                                                4.3
-                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="#FFB54A" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
-                                                    <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
-                                                </svg>
-                                            </span>
-                                        </span>
-                                    </div>
-
-                                    <div>
-                                        <span>Lượt khám:</span>
-                                        <span>
-                                            38
-                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="#FFB54A" height="15" width="15" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
-                                                <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="content">
-                                    <div class="title">
-                                        <h2>Ths BS.</h2>
-                                        <h2>Trần Thị Oanh - BV Hùng Vương</h2>
-                                    </div>
-
-                                    <div class="sub-content">
-                                        <div>
-                                            <img src="./assets/imgs/subject.svg" alt="">
-                                            Sản khoa
-                                        </div>
-                                        <div>
-                                            <img src="./assets/imgs/dollar.svg" alt="">
-                                            150.000đ
-                                        </div>
-                                        <div>
-                                            <img src="./assets/imgs/hospital.svg" alt="">
-                                            Bác sĩ Chuyên Khoa
-                                        </div>
-                                    </div>
-
-                                    <div class="btn">
-                                        <button>Tư vấn ngay</button>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="content-item">
-                            <a href="###">
-                                <div class="img">
-                                    <img src="./assets/imgs/0478ff2f-00fd-478a-a52f-49396cf6ac75-bs_traaoan_thaaa_oanh.webp" alt="">
-                                </div>
-
-                                <div class="rate">
-                                    <div>
-                                        <span>
-                                            Đánh giá:
-                                            <span>
-                                                4.3
-                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="#FFB54A" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
-                                                    <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
-                                                </svg>
-                                            </span>
-                                        </span>
-                                    </div>
-
-                                    <div>
-                                        <span>Lượt khám:</span>
-                                        <span>
-                                            38
-                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="#FFB54A" height="15" width="15" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
-                                                <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="content">
-                                    <div class="title">
-                                        <h2>Ths BS.</h2>
-                                        <h2>Trần Thị Oanh - BV Hùng Vương</h2>
-                                    </div>
-
-                                    <div class="sub-content">
-                                        <div>
-                                            <img src="./assets/imgs/subject.svg" alt="">
-                                            Sản khoa
-                                        </div>
-                                        <div>
-                                            <img src="./assets/imgs/dollar.svg" alt="">
-                                            150.000đ
-                                        </div>
-                                        <div>
-                                            <img src="./assets/imgs/hospital.svg" alt="">
-                                            Bác sĩ Chuyên Khoa
-                                        </div>
-                                    </div>
-
-                                    <div class="btn">
-                                        <button>Tư vấn ngay</button>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="content-item">
-                            <a href="###">
-                                <div class="img">
-                                    <img src="./assets/imgs/0478ff2f-00fd-478a-a52f-49396cf6ac75-bs_traaoan_thaaa_oanh.webp" alt="">
-                                </div>
-
-                                <div class="rate">
-                                    <div>
-                                        <span>
-                                            Đánh giá:
-                                            <span>
-                                                4.3
-                                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="#FFB54A" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
-                                                    <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
-                                                </svg>
-                                            </span>
-                                        </span>
-                                    </div>
-
-                                    <div>
-                                        <span>Lượt khám:</span>
-                                        <span>
-                                            38
-                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="#FFB54A" height="15" width="15" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
-                                                <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div class="content">
-                                    <div class="title">
-                                        <h2>Ths BS.</h2>
-                                        <h2>Trần Thị Oanh - BV Hùng Vương</h2>
-                                    </div>
-
-                                    <div class="sub-content">
-                                        <div>
-                                            <img src="./assets/imgs/subject.svg" alt="">
-                                            Sản khoa
-                                        </div>
-                                        <div>
-                                            <img src="./assets/imgs/dollar.svg" alt="">
-                                            150.000đ
-                                        </div>
-                                        <div>
-                                            <img src="./assets/imgs/hospital.svg" alt="">
-                                            Bác sĩ Chuyên Khoa
-                                        </div>
-                                    </div>
-
-                                    <div class="btn">
-                                        <button>Tư vấn ngay</button>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+            <div class="content-container">
+                <div class="img">
+                    <img src="./assets/imgs/0478ff2f-00fd-478a-a52f-49396cf6ac75-bs_traaoan_thaaa_oanh.webp" alt="">
                 </div>
-            </div>
-            <?php include('components/navigation-swiper.php') ?>
 
-            <?php include('components/btn/view-all.php') ?>
-        </div>
-    </div>
-
-    <div class="bg-div-content"></div>
-    <div class="bg-content container">
-        <div class="container-item3">
-            <h2 class="title">Chăm sóc sức khỏe toàn diện</h2>
-
-            <div class="button-navigation">
-                <button>
-                    Sức khỏe
-                </button>
-                <button>
-                    Xét nghiệm
-                </button>
-                <button>
-                    Tiêm chủng
-                </button>
-            </div>
-
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <div class="img">
-                            <img src="./assets/imgs/bc9584b2-9fe4-4dde-816d-3de4a012249c-gaai_khaam_chuyaaan_saacentu_-_haanh_aaoapoundnh_(banner_section)_277x150_px.webp" alt="">
-                        </div>
-
-                        <div class="content">
-                            <h3>Gói Khám Chuyên Sâu Bệnh Lý Dạ Dày & Đại Tràng</h3>
-                            <div>
-                                <img src="./assets/imgs/hospital.svg" alt="">
-                                Trung Tâm Nội Soi Tiêu Hoá Doctor Check
-                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" ariaHidden="true" color="#0097FF" height="18" width="18" xmlns="http://www.w3.org/2000/svg" style="color: rgb(0, 151, 255);">
-                                    <path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path>
+                <div class="rate">
+                    <div>
+                        <span>
+                            Đánh giá:
+                            <span>
+                                4.3
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" color="#FFB54A" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
+                                    <path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path>
                                 </svg>
-                            </div>
+                            </span>
+                        </span>
+                    </div>
 
-                            <div class="price">
-                                <img src="./assets/imgs/dollar.svg" alt="">
-                                150.000đ
-                            </div>
-
-                            <div class="btn">
-                                <button>Tư vấn ngay</button>
-                            </div>
-                        </div>
+                    <div>
+                        <span>Lượt khám:</span>
+                        <span>
+                            38
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" color="#FFB54A" height="15" width="15" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 181, 74);">
+                                <path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"></path>
+                            </svg>
+                        </span>
                     </div>
                 </div>
-                <?php include('components/navigation-swiper.php') ?>
+
+                <div class="content">
+                    <div class="title">
+                        <h2>Ths BS.</h2>
+                        <h2>Trần Thị Oanh - BV Hùng Vương</h2>
+                    </div>
+
+                    <div class="sub-content">
+                        <span>
+                            <img src="./assets/imgs/subject.svg" alt="">
+                            Sản khoa
+                        </span>
+                        <span>
+                            <img src="./assets/imgs/subject.svg" alt="">
+                            150.000đ
+                        </span>
+                        <span>
+                            <img src="./assets/imgs/subject.svg" alt="">
+                            Bác sĩ Chuyên Khoa
+                        </span>
+                    </div>
+
+                    <div class="btn">
+                        <a href="#">
+                            <button>Tư vấn ngay</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
 </div>

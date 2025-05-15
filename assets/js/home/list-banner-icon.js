@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper("#home>.bannerHome .swiper", {
+    const swiper = new Swiper("#home>.list-banner-icon .swiper", {
         direction: "horizontal", // Hướng chuyển động ngang
         loop: false, // Cho phép lặp lại vòng quay slider
 
         navigation: {
-            prevEl: "#home>.bannerHome .swiper-container .swiper-button-prev", // Nút quay lại
-            nextEl: "#home>.bannerHome .swiper-container .swiper-button-next", // Nút tiến lên
+            prevEl: "#home>.list-banner-icon .swiper-button-prev", // Nút quay lại
+            nextEl: "#home>.list-banner-icon .swiper-button-next", // Nút tiến lên
         },
 
         effect: "slide", // Hiệu ứng chuyển động giữa các slide
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 spaceBetween: 20,
             },
             1024: {
-                slidesPerView: 7,
+                slidesPerView: 6,
                 spaceBetween: 20,
             },
         },
