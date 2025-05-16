@@ -14,6 +14,7 @@ input,
 select,
 textarea {
     font-family: var(--font-primary);
+    color: var(--color-secondary);
 }
 
 /* Reset font cho các thẻ heading */
@@ -24,6 +25,7 @@ h4,
 h5,
 h6 {
     font-family: var(--font-primary);
+    color: var(--color-secondary);
 }
 
 ul {
@@ -31,7 +33,7 @@ ul {
 }
 
 a {
-    color: black;
+    color: var(--color-secondary);
     text-decoration: none;
     cursor: pointer;
 }
@@ -39,7 +41,9 @@ a {
 button {
     cursor: pointer;
 }
-
+div,span{
+    color: var(--color-secondary);
+}
 .overlay {
     position: fixed;
     top: 0;
@@ -89,3 +93,4 @@ button {
     width: 20px;
     height: 20px;
 }
+

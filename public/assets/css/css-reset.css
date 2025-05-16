@@ -165,7 +165,7 @@ body {
 }
 
 .bg-content {
-    background: linear-gradient(180deg, #fff, #ebf2ff);
+    background: rgb(232, 244, 253);
 }
 .m-content{
     margin-block: 20px ;
