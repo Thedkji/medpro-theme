@@ -194,7 +194,7 @@
     </li>
 
     <li>
-        <a href="<?php echo $url; ?>?page=business-health-check">
+        <a href="/business-health-check">
             <span>Khám sức khỏe doanh nghiệp</span>
             <svg
                 stroke="currentColor"

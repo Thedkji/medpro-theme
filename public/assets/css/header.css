@@ -2,7 +2,6 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
-    padding: 0 20px;
 }
 
 .medpro-header>.header-left {
@@ -20,7 +19,7 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #e4e4e4;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .medpro-header>.header-right>.header>.social {
@@ -73,7 +72,6 @@
     padding: 10px 15px;
     align-content: center;
     border-radius: 30px;
-    border: none;
 
 }
 
@@ -86,6 +84,10 @@
     color: white;
     background-color: #ffb54a;
     transition: all 0.5s ease;
+    border: none;
+}
+.medpro-header .button-app>button:nth-child(1)>span {
+    color: white;
 }
 
 .medpro-header .button-app>button:hover {
@@ -181,7 +183,7 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
-    padding: 5px 20px;
+    padding: 5px 0px;
 }
 
 .medpro-header>.header-right>.body>.contact {
@@ -239,6 +241,7 @@
     .medpro-header>.header-right>.header>.action-bar button {
         padding: 0px 5px;
         background: transparent;
+        border: none;
     }
 
 }

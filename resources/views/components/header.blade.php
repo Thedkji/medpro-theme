@@ -1,5 +1,5 @@
 <div class="header-left">
-    <a href="<?php echo $url; ?>?page=home">
+    <a href="/">
         <img src="./assets/imgs/header_logo.svg" alt="" />
     </a>
 </div>
@@ -186,7 +186,7 @@
             </div>
 
 
-            <?php include_once './components/menu-mobile.php'; ?>
+            @include('components.menu-mobile')
 
         </div>
     </div>
@@ -206,7 +206,7 @@
         </div>
 
         <nav>
-            <?php include_once "./components/menu-desktop.php" ?>
+            @include('components.menu-desktop')
         </nav>
     </div>
 </div>

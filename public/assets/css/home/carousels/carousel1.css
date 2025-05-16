@@ -1,0 +1,31 @@
+.carousel1 {
+    margin-block: 50px;
+    text-align: center;
+}
+
+.carousel1 .swiper {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.carousel1 .swiper .swiper-slide>div {
+    width: 185px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.carousel1 .swiper .swiper-slide>div img {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+}
+
+.carousel1 .swiper-button-prev {
+    top: 70%;
+}
+
+.carousel1 .swiper-button-next {
+    top: 70%;
+}
