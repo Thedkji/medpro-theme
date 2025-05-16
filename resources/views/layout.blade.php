@@ -19,7 +19,7 @@
         @include('components.header')
     </header>
 
-    <main>
+    <main class="bg-content">
         @yield('contents')
     </main>
 

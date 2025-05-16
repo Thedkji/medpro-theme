@@ -1,0 +1,37 @@
+.home.list3 .list-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-block: 40px;
+    gap: 60px;
+    background-color: white;
+    border-radius: var(--radius-lg);
+    padding: 20px 60px;
+}
+.home.list3 .list-item {
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+.home.list3 .list-item .img {
+    width: 100%;
+    height: 103px;
+}
+
+.home.list3 .img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.home.list3 .list-item .title {
+    font-size: var(--fs-3xl);
+    font-weight: var(--fw-bold);
+}
+.home.list3 .list-item .content{
+    min-height: 68px;
+}
+.home.list3 .list-item .content span{
+    color: var(--color-disabled2);
+}
