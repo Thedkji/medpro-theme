@@ -9,12 +9,14 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
         e.stopPropagation();
         menuMobile.style.transform = "translateX(0)";
+        menuMobile.style.visibility = "visible";
         overlay.style.display = "block";
     })
     btnMenuClose.addEventListener('click', (e) => {
         e.preventDefault();
         e.stopPropagation();
         menuMobile.style.transform = "translateX(1000px)";
+        menuMobile.style.visibility = "hidden";
         overlay.style.display = "none";
     })
 
@@ -64,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
         e.stopPropagation();
         menuMobile.style.transform = "translateX(1000px)";
+        menuMobile.style.visibility = "hidden";
         overlay.style.display = "none";
     })
 

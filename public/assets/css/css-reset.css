@@ -27,7 +27,7 @@ h6 {
     color: var(--color-secondary);
 }
 
-p{
+p {
     color: var(--color-secondary);
 }
 
@@ -61,7 +61,7 @@ button {
 }
 
 .container {
-    padding: 30px 100px;
+    padding: 30px clamp(30px, 7vw, 100px);
     margin: auto;
 }
 
@@ -142,28 +142,24 @@ button {
 }
 
 .relative .swiper-button-prev {
-    left: -60px;
-    top: 50%;
-}
+    left: 1.5%;
+    top: 55%;
+}   
 
 .relative .swiper-button-next {
-    right: -60px;
-    top: 50%;
-}
-
-body {
-    height: 100000px;
-}
+    right: 1.5%;
+    top: 55%;
+}   
 
 /* luôn luôn đặt 1 thẻ div có class .bg-div-content ở dưới bg-content  */
 .bg-div-content {
     background: linear-gradient(0deg, #fff, #ebf2ff);
-    height: 43px;
+    height: 35px;
 }
 
 .bg-div-content2 {
     background: linear-gradient(180deg, #fff, #ebf2ff);
-    height: 43px;
+    height: 35px;
 }
 
 .bg-content {
@@ -193,6 +189,32 @@ body {
 .m-block30 {
     margin-block: 30px;
 }
+
 .m-top50 {
     margin-top: 50px;
+}
+
+/* Muốn sử dụng thì phần tử được add vào phải set width để giới hạn */
+.truncate-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.truncate-text.line-1{
+    -webkit-line-clamp: 1;
+}
+.truncate-text.line-2{
+    -webkit-line-clamp: 2;
+}
+.truncate-text.line-3{
+    -webkit-line-clamp: 3;
+}
+.truncate-text.line-4{
+    -webkit-line-clamp: 4;
+}
+.truncate-text.line-5{
+    -webkit-line-clamp: 5;
+}
+.truncate-text.line-6{
+    -webkit-line-clamp: 6;
 }

@@ -4,7 +4,7 @@
 @push('scripts')
     <script src="./assets/js/home/carousels/carousel5.js"></script>
 @endpush
-<div class="container-item2 carousel5 relative">
+<div class="container-item2 carousel5 container relative">
     <x-title.title2 title="Bác sĩ TƯ VẤN khám bệnh qua video"/>
 
     <div class="content-container swiper m-content">

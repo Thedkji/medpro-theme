@@ -4,7 +4,7 @@
 @push('scripts')
     <script src="./assets/js/home/carousels/carousel3.js"></script>
 @endpush
-<div class="container-item1 carousel3 relative">
+<div class="container-item1 carousel3 container relative">
     <x-title.title2 title="Cơ sở y tế đặt khám được yêu thích" />
 
     <div class="swiper">

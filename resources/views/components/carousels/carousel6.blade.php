@@ -5,7 +5,7 @@
     <script src="./assets/js/home/carousels/carousel6.js"></script>
     <script src="./assets/js/btn/btn-navigation.js"></script>
 @endpush
-<div class="container-item2 carousel6 relative">
+<div class="container-item2 carousel6 container relative">
     <x-title.title2 title="Chăm sóc sức khỏe toàn diện" />
 
     <x-btn.btn-navigation :active="[

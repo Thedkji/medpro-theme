@@ -12,15 +12,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // min-width
         breakpoints: {
-            640: {
-                slidesPerView: 1,
+            500: {
+                slidesPerView: 3,
                 spaceBetween: 20,
             },
-            768: {
-                slidesPerView: 1,
+            1100: {
+                slidesPerView: 5,
                 spaceBetween: 20,
             },
-            1024: {
+            1260: {
                 slidesPerView: 7,
                 spaceBetween: 20,
             },

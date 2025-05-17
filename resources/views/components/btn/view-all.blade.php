@@ -2,7 +2,7 @@
     <link rel="stylesheet" href="./assets/css/btn/view-all.css">
 @endpush
 <style>
-    {{ $style ?? '' }}
+{{ $style ?? '' }}
 </style>
 <div class="view-all">
     <a href="{{ $link ?? '#' }}">

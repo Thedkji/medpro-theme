@@ -15,7 +15,7 @@
 <body>
     <div class="overlay"></div>
 
-    <header class="medpro-header">
+    <header class="medpro-header container">
         @include('components.header')
     </header>
 

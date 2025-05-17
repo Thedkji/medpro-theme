@@ -4,10 +4,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-block: 40px;
-    gap: 10px;
+    gap: 30px;
 }
+
 .home.list2 .list-item {
-    width: 130px;
     height: 52.47px;
     margin: auto;
     text-align: center;
@@ -23,4 +23,18 @@
     width: 70%;
     text-align: center;
     margin: 10px auto 0 auto;
+}
+
+@media screen and (max-width: 1050px) {
+    .home.list2 .list-container {
+        width: 90%;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home.list2 .list-container {
+        width: 100%;
+        gap: 20px;
+    }
 }

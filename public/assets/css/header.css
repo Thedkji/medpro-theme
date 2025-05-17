@@ -2,6 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
+    padding: 0;
 }
 
 .medpro-header>.header-left {
