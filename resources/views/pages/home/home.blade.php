@@ -25,10 +25,11 @@
                     y="0px" viewBox="0 0 24 24" color="#B1B1B1" height="24" width="24"
                     xmlns="http://www.w3.org/2000/svg" style="color: rgb(177, 177, 177);">
                     <g>
-                        <path d="M20.031,20.79c0.46,0.46,1.17-0.25,0.71-0.7l-3.75-3.76c1.27-1.41,2.04-3.27,2.04-5.31
-                                                                                                                c0-4.39-3.57-7.96-7.96-7.96s-7.96,3.57-7.96,7.96c0,4.39,3.57,7.96,7.96,7.96c1.98,0,3.81-0.73,5.21-1.94L20.031,20.79z
-                                                                                                                M4.11,11.02c0-3.84,3.13-6.96,6.96-6.96c3.84,0,6.96,3.12,6.96,6.96c0,3.84-3.12,6.96-6.96,6.96C7.24,17.98,4.11,14.86,4.11,11.02
-                                                                                                                z">
+                        <path
+                            d="M20.031,20.79c0.46,0.46,1.17-0.25,0.71-0.7l-3.75-3.76c1.27-1.41,2.04-3.27,2.04-5.31
+                                                                                                                            c0-4.39-3.57-7.96-7.96-7.96s-7.96,3.57-7.96,7.96c0,4.39,3.57,7.96,7.96,7.96c1.98,0,3.81-0.73,5.21-1.94L20.031,20.79z
+                                                                                                                            M4.11,11.02c0-3.84,3.13-6.96,6.96-6.96c3.84,0,6.96,3.12,6.96,6.96c0,3.84-3.12,6.96-6.96,6.96C7.24,17.98,4.11,14.86,4.11,11.02
+                                                                                                                            z">
                         </path>
                     </g>
                 </svg>
@@ -160,8 +161,6 @@
             </div>
         </div>
 
-        <div class="bg-div-content"></div>
-        <div class="bg-div-content2"></div>
         <div class="bg-content">
             <div class="container">
                 <x-carousels.carousel3 />
@@ -169,23 +168,20 @@
         </div>
 
         <div class="bg-div-content"></div>
-        <div class="bg-div-content2"></div>
-        <div class="bg-content">
+        <div class="">
             <div class="container">
                 <x-carousels.carousel4 />
             </div>
         </div>
-
-        <div class="bg-div-content"></div>
         <div class="bg-div-content2"></div>
+
         <div class="bg-content">
             <div class="container">
                 <x-carousels.carousel5 />
             </div>
         </div>
 
-        <div class="bg-div-content"></div>
-        <div class="bg-div-content2"></div>
+
         <div class="bg-content">
             <div class="container">
                 <x-carousels.carousel6 />
@@ -193,32 +189,23 @@
         </div>
 
         <div class="bg-div-content"></div>
-        <div class="bg-div-content2"></div>
-        <div class="bg-content">
+        <div class="">
             <div class="container">
                 <x-lists.list1 />
             </div>
         </div>
 
-        <div class="bg-div-content"></div>
-        <div class="bg-div-content2"></div>
-        <div class="bg-content">
-            <div class="container">
-                <x-contents.content1 />
-            </div>
+        <div class="container m-top50">
+            <x-contents.content1 />
         </div>
 
-        <div class="bg-div-content"></div>
-        <div class="bg-div-content2"></div>
-        <div class="bg-content">
+        <div class="m-top50">
             <div class="container">
                 <x-carousels.carousel7 />
             </div>
         </div>
 
-        <div class="bg-div-content"></div>
-        <div class="bg-div-content2"></div>
-        <div class="bg-content">
+        <div class="m-top50">
             <div class="container">
                 <x-lists.list2 />
 
@@ -233,7 +220,6 @@
             </div>
         </div>
 
-        <div class="bg-div-content"></div>
         <div class="bg-div-content2"></div>
         <div class="bg-content">
             <div class="container">
@@ -241,7 +227,17 @@
             </div>
         </div>
 
-        
+        <div class="bg-content">
+            <div class="container">
+                <x-grids.grid1 />
+            </div>
+        </div>
+
+        <div class="bg-content">
+            <div class="container">
+                <x-banner-info.banner-info1 />
+            </div>
+        </div>
 
     </div>
 @endsection
