@@ -195,28 +195,22 @@
             </div>
         </div>
 
-        <div class="container m-top50">
-            <x-contents.content1 />
+        <x-contents.content1 />
+
+        <div class="container">
+            <x-carousels.carousel7 />
         </div>
 
-        <div class="m-top50">
-            <div class="container">
-                <x-carousels.carousel7 />
-            </div>
-        </div>
+        <div class="container">
+            <x-lists.list2 />
 
-        <div class="m-top50">
             <div class="container">
-                <x-lists.list2 />
-
-                <div class="container">
-                    <iframe
-                        style="position: relative; left: 50%; transform: translateX(-50%); border-radius:10px ;margin: 10px 0"
-                        width="703" height="350" src="https://www.youtube.com/embed/zfmhCJgWx8Y"
-                        title="Ứng dụng Medpro - Đặt khám nhanh tại hơn 50 bệnh viện hàng đầu Việt Nam" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
+                <iframe
+                    style="position: relative; left: 50%; transform: translateX(-50%); border-radius:10px ;margin: 10px 0"
+                    width="703" height="350" src="https://www.youtube.com/embed/zfmhCJgWx8Y"
+                    title="Ứng dụng Medpro - Đặt khám nhanh tại hơn 50 bệnh viện hàng đầu Việt Nam" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
 

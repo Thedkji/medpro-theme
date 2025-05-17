@@ -27,8 +27,7 @@ h6 {
     color: var(--color-secondary);
 }
 
-p,
-span {
+p{
     color: var(--color-secondary);
 }
 
@@ -46,14 +45,6 @@ a {
     cursor: pointer;
 }
 
-a:hover{
-    color: var(--color-primary);
-}
-span:hover{
-    color: var(--color-primary);
-}
-
-
 button {
     cursor: pointer;
 }
@@ -70,7 +61,7 @@ button {
 }
 
 .container {
-    padding-inline: 100px;
+    padding: 30px 100px;
     margin: auto;
 }
 
@@ -177,11 +168,10 @@ body {
 
 .bg-content {
     background: rgb(232, 244, 253);
-    padding-block: 40px;
 }
 
 .m-content {
-    margin-block: 20px;
+    margin-block: 30px;
 }
 
 .color-tertiary {

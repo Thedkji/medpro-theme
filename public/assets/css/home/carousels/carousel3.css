@@ -11,7 +11,7 @@
     padding: 10px;
 }
 
-.carousel3 .swiper .swiper-slide>div {
+.carousel3 .swiper .swiper-slide>a {
     width: 100%;
     height: 100%;
     background-color: white;
@@ -20,13 +20,17 @@
     padding: 15px;
 }
 
-.carousel3 .swiper .swiper-slide>div .img {
+.carousel3 .swiper .swiper-slide>a:hover {
+    color: var(--color-secondary);
+}
+
+.carousel3 .swiper .swiper-slide>a .img {
     width: 100%;
     height: 130px;
     margin: 20px 0 30px 0;
 }
 
-.carousel3 .swiper .swiper-slide>div .img img {
+.carousel3 .swiper .swiper-slide>a .img img {
     width: auto;
     height: 100%;
     object-fit: cover;
@@ -59,20 +63,4 @@
 
 .carousel3 .swiper .rate ul li svg {
     margin-top: 5px;
-}
-
-
-.carousel3 .swiper .order {
-    margin-top: 10px;
-}
-
-.carousel3 .swiper .order button {
-    width: 100%;
-    height: 35px;
-    background-color: var(--color-primary);
-    color: var(--color-accent);
-    border: none;
-    border-radius: var(--radius-base);
-    font-weight: var(--fw-bold);
-    font-size: var(--fs-base);
 }
