@@ -1,10 +1,11 @@
 .banner-info1 .content {
-    width: 100%;
+    width: 70%;
     height: 100%;
     display: flex;
     justify-content: end;
     align-items: center;
-    gap: 50px
+    gap: 50px;
+    margin-left: auto;
 }
 
 .banner-info1 .content .item:nth-child(1) {

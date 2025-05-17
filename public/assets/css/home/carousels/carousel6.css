@@ -3,7 +3,6 @@
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-content);
     margin: auto;
-    width: 260px;
     display: block;
 }
 

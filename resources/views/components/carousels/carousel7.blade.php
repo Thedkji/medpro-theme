@@ -4,7 +4,7 @@
 @push('scripts')
     <script src="./assets/js/home/carousels/carousel7.js"></script>
 @endpush
-<div class="carousel7 relative">
+<div class="carousel7 container relative">
     <x-title.title2 title="Cảm nhận từ khách hàng" />
 
     <div class="swiper">

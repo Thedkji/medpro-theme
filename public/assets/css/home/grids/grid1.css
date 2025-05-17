@@ -74,8 +74,9 @@
 }
 
 .grid1 .grid-item2 .img-content {
-    width: 302px;
-    height: auto
+    width: clamp(100px,25vw,302px);
+    height: auto;
+    margin: auto;
 }
 
 .grid1 .grid-item2 .img-content img {
@@ -88,4 +89,9 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+}
+@media screen and (max-width: 1250px) {
+.grid1{
+        grid-template-columns: 1fr;
+}
 }
