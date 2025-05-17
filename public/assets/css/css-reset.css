@@ -41,10 +41,18 @@ ul {
 }
 
 a {
-    color: black;
+    color: var(--color-secondary);
     text-decoration: none;
     cursor: pointer;
 }
+
+a:hover{
+    color: var(--color-primary);
+}
+span:hover{
+    color: var(--color-primary);
+}
+
 
 button {
     cursor: pointer;
@@ -141,11 +149,13 @@ button {
 .relative {
     position: relative;
 }
-.relative .swiper-button-prev{
+
+.relative .swiper-button-prev {
     left: -60px;
     top: 50%;
 }
-.relative .swiper-button-next{
+
+.relative .swiper-button-next {
     right: -60px;
     top: 50%;
 }
@@ -157,28 +167,42 @@ body {
 /* luôn luôn đặt 1 thẻ div có class .bg-div-content ở dưới bg-content  */
 .bg-div-content {
     background: linear-gradient(0deg, #fff, #ebf2ff);
-    height: 68.15px;
+    height: 43px;
 }
+
 .bg-div-content2 {
-    background: linear-gradient(180deg,#fff,#ebf2ff);
-    height: 68.15px;
+    background: linear-gradient(180deg, #fff, #ebf2ff);
+    height: 43px;
 }
 
 .bg-content {
     background: rgb(232, 244, 253);
+    padding-block: 40px;
 }
-.m-content{
-    margin-block: 20px ;
+
+.m-content {
+    margin-block: 20px;
 }
-.color-tertiary{
+
+.color-tertiary {
     color: var(--color-tertiary);
 }
-.color-primary{
+
+.color-primary {
     color: var(--color-primary);
 }
-.none{
+
+.none {
     display: none;
 }
-.block{
+
+.block {
     display: block;
+}
+
+.m-block30 {
+    margin-block: 30px;
+}
+.m-top50 {
+    margin-top: 50px;
 }
