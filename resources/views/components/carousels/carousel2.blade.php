@@ -1,8 +1,8 @@
 @push('styles')
-    <link rel="stylesheet" href="./assets/css/home/carousels/carousel2.css">
+    <link rel="stylesheet" href="./assets/css/carousels/carousel2.css">
 @endpush
 @push('scripts')
-    <script src="./assets/js/home/carousels/carousel2.js"></script>
+    <script src="./assets/js/carousels/carousel2.js"></script>
 @endpush
 <div class="banner-advertisement carousel2 relative">
     <div class="swiper">

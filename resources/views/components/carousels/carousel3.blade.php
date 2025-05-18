@@ -1,11 +1,11 @@
 @push('styles')
-    <link rel="stylesheet" href="./assets/css/home/carousels/carousel3.css">
+    <link rel="stylesheet" href="./assets/css/carousels/carousel3.css">
 @endpush
 @push('scripts')
-    <script src="./assets/js/home/carousels/carousel3.js"></script>
+    <script src="./assets/js/carousels/carousel3.js"></script>
 @endpush
 <div class="container-item1 carousel3 container relative">
-    <x-title.title2 title="Cơ sở y tế đặt khám được yêu thích" />
+    <x-title.title2 :title="$titleC" />
 
     <div class="swiper">
         <div class="swiper-wrapper">

@@ -7,14 +7,14 @@
     margin: 50px auto;
 }
 
-.carousel1 .swiper .swiper-slide>div {
+.carousel1 .swiper .swiper-slide>a {
     height: 120px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.carousel1 .swiper .swiper-slide>div img {
+.carousel1 .swiper .swiper-slide>a img {
     width: 64px;
     height: 64px;
     margin: auto;

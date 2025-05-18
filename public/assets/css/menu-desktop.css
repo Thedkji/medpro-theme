@@ -138,6 +138,7 @@
         height: 75px !important;
         visibility: visible;
         opacity: 1 !important;
+        overflow: visible !important;
     }
 
     .medpro-header .header-right .button-menu-mobile {

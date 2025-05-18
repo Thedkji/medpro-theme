@@ -1,11 +1,11 @@
 @push('styles')
-    <link rel="stylesheet" href="./assets/css/home/carousels/carousel5.css">
+    <link rel="stylesheet" href="./assets/css/carousels/carousel5.css">
 @endpush
 @push('scripts')
-    <script src="./assets/js/home/carousels/carousel5.js"></script>
+    <script src="./assets/js/carousels/carousel5.js"></script>
 @endpush
 <div class="container-item2 carousel5 container relative">
-    <x-title.title2 title="Bác sĩ TƯ VẤN khám bệnh qua video"/>
+    <x-title.title2 :title="$titleC"/>
 
     <div class="content-container swiper m-content">
         <div class="swiper-wrapper" id="swiper-wrapper-d4696beef0e0f8fe" aria-live="polite">

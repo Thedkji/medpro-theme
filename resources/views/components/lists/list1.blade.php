@@ -1,8 +1,8 @@
 @push('styles')
-    <link rel="stylesheet" href="./assets/css/home/lists/list1.css">
+    <link rel="stylesheet" href="./assets/css/lists/list1.css">
 @endpush
 <div class="home list1 relative">
-    <x-title.title2 title="Chuyên khoa" />
+    <x-title.title2 :title="$titleC" />
 
     <div class="list-container">
         <div class="list-item">

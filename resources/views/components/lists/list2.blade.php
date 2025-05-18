@@ -1,9 +1,8 @@
 @push('styles')
-    <link rel="stylesheet" href="./assets/css/home/lists/list2.css">
+    <link rel="stylesheet" href="./assets/css/lists/list2.css">
 @endpush
 <div class="home list2 relative">
-    <x-title.title3 title="Truyền thông nói gì về Medpro"
-        subTitle="Lợi ích của Ứng dụng đặt khám nhanh Medpro đã được ghi nhận rộng rãi" />
+    <x-title.title3 :title="$titleC" :subTitle="$subTitleC" />
 
     <div class="list-container">
         <div class="list-item">

@@ -1,5 +1,5 @@
 @push('styles')
-    <link rel="stylesheet" href="./assets/css/home/banner-info/banner-info1.css">
+    <link rel="stylesheet" href="./assets/css/banner-info/banner-info1.css">
 @endpush
 <style>
     .banner-info1 {

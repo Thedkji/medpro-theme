@@ -28,9 +28,9 @@
                         <g>
                             <path
                                 d="M20.031,20.79c0.46,0.46,1.17-0.25,0.71-0.7l-3.75-3.76c1.27-1.41,2.04-3.27,2.04-5.31
-                                                                                                                                    c0-4.39-3.57-7.96-7.96-7.96s-7.96,3.57-7.96,7.96c0,4.39,3.57,7.96,7.96,7.96c1.98,0,3.81-0.73,5.21-1.94L20.031,20.79z
-                                                                                                                                    M4.11,11.02c0-3.84,3.13-6.96,6.96-6.96c3.84,0,6.96,3.12,6.96,6.96c0,3.84-3.12,6.96-6.96,6.96C7.24,17.98,4.11,14.86,4.11,11.02
-                                                                                                                                    z">
+                                                                                                                                                    c0-4.39-3.57-7.96-7.96-7.96s-7.96,3.57-7.96,7.96c0,4.39,3.57,7.96,7.96,7.96c1.98,0,3.81-0.73,5.21-1.94L20.031,20.79z
+                                                                                                                                                    M4.11,11.02c0-3.84,3.13-6.96,6.96-6.96c3.84,0,6.96,3.12,6.96,6.96c0,3.84-3.12,6.96-6.96,6.96C7.24,17.98,4.11,14.86,4.11,11.02
+                                                                                                                                                    z">
                             </path>
                         </g>
                     </svg>
@@ -75,71 +75,14 @@
                     </ul>
                 </div>
 
-                <div class="swiper-container container relative">
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                            <!-- Slides -->
-                            <div class="swiper-slide">
-                                <img src="./assets/imgs/af579b7d-d040-436e-992a-0bb9c6374785-dat-kham-tai-co-so.webp"
-                                    alt="">
-                                <span>Đặt khám tại cơ sở</span>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./assets/imgs/af579b7d-d040-436e-992a-0bb9c6374785-dat-kham-tai-co-so.webp"
-                                    alt="">
-                                <span>Đặt khám tại cơ sở</span>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./assets/imgs/af579b7d-d040-436e-992a-0bb9c6374785-dat-kham-tai-co-so.webp"
-                                    alt="">
-                                <span>Đặt khám tại cơ sở</span>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./assets/imgs/af579b7d-d040-436e-992a-0bb9c6374785-dat-kham-tai-co-so.webp"
-                                    alt="">
-                                <span>Đặt khám tại cơ sở</span>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./assets/imgs/af579b7d-d040-436e-992a-0bb9c6374785-dat-kham-tai-co-so.webp"
-                                    alt="">
-                                <span>Đặt khám tại cơ sở</span>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./assets/imgs/af579b7d-d040-436e-992a-0bb9c6374785-dat-kham-tai-co-so.webp"
-                                    alt="">
-                                <span>Đặt khám tại cơ sở</span>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./assets/imgs/af579b7d-d040-436e-992a-0bb9c6374785-dat-kham-tai-co-so.webp"
-                                    alt="">
-                                <span>Đặt khám tại cơ sở</span>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./assets/imgs/af579b7d-d040-436e-992a-0bb9c6374785-dat-kham-tai-co-so.webp"
-                                    alt="">
-                                <span>Đặt khám tại cơ sở</span>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./assets/imgs/af579b7d-d040-436e-992a-0bb9c6374785-dat-kham-tai-co-so.webp"
-                                    alt="">
-                                <span>Đặt khám tại cơ sở</span>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./assets/imgs/af579b7d-d040-436e-992a-0bb9c6374785-dat-kham-tai-co-so.webp"
-                                    alt="">
-                                <span>Đặt khám tại cơ sở</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <x-navigation-swiper />
-                </div>
+                <x-carousels.carousel8/>
             </div>
         </div>
 
         <div class="m-content"></div>
         <div class="">
-            <x-carousels.carousel1 />
+
+            <x-carousels.carousel1 :titleC="'Được tin tưởng hợp tác và đồng hành'" />
         </div>
 
         <div class="bg-div-content2"></div>
@@ -151,7 +94,7 @@
 
         <div class="bg-content">
             <div class="">
-                <x-carousels.carousel3 />
+                <x-carousels.carousel3 titleC="Cơ sở y tế đặt khám được yêu thích" />
             </div>
         </div>
 
@@ -165,43 +108,45 @@
 
         <div class="bg-content">
             <div class="">
-                <x-carousels.carousel5 />
+                <x-carousels.carousel5 titleC="Bác sĩ TƯ VẤN khám bệnh qua video" />
             </div>
         </div>
 
 
         <div class="bg-content">
             <div class="">
-                <x-carousels.carousel6 />
+                <x-carousels.carousel6 titleC="Chăm sóc sức khỏe toàn diện" />
             </div>
         </div>
 
         <div class="bg-div-content"></div>
         <div class="">
             <div class="container">
-                <x-lists.list1 />
+                <x-lists.list1 titleC="Chuyên khoa" />
             </div>
         </div>
 
         <div class="container">
-            <x-contents.content1 />
+            <x-contents.content1 titleC="Tải ứng dụng Đặt khám nhanh" spanC="Medpro" />
         </div>
 
         <div class="">
-            <x-carousels.carousel7 />
+            <x-carousels.carousel7 titleC="Cảm nhận từ khách hàng" />
         </div>
 
         <div class="container">
-            <x-lists.list2 />
+            <x-lists.list2 titleC="Truyền thông nói gì về Medpro"
+                subTitleC="Lợi ích của Ứng dụng đặt khám nhanh Medpro đã được ghi nhận rộng rãi" />
 
             <div class="iframe1">
                 <style>
-                    .iframe1{
+                    .iframe1 {
                         margin-top: 100px
                     }
-                    .iframe1 iframe{
-                        width: clamp(300px,50vw,703px);
-                        height: clamp(200px,30vw,250px);
+
+                    .iframe1 iframe {
+                        width: clamp(300px, 50vw, 703px);
+                        height: clamp(200px, 30vw, 250px);
                     }
                 </style>
                 <iframe
@@ -216,13 +161,13 @@
         <div class="bg-div-content2"></div>
         <div class="bg-content">
             <div class="container">
-                <x-lists.list3 />
+                <x-lists.list3 titleC="Thống kê" />
             </div>
         </div>
 
         <div class="bg-content">
             <div class="container">
-                <x-grids.grid1 />
+                <x-grids.grid1 titleC="Tin tức Y Tế" />
             </div>
         </div>
 
