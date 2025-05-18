@@ -65,6 +65,17 @@ button {
     margin: auto;
 }
 
+.body-pt {
+    padding-top: 145px;
+}
+
+@media only screen and (max-width: 1128px) {
+    .body-pt {
+        padding-top: 75px;
+    }
+}
+
+
 @media only screen and (max-width: 600px) {
     .container {
         max-width: 600px;
@@ -144,12 +155,12 @@ button {
 .relative .swiper-button-prev {
     left: 1.5%;
     top: 55%;
-}   
+}
 
 .relative .swiper-button-next {
     right: 1.5%;
     top: 55%;
-}   
+}
 
 /* luôn luôn đặt 1 thẻ div có class .bg-div-content ở dưới bg-content  */
 .bg-div-content {
@@ -200,21 +211,27 @@ button {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-.truncate-text.line-1{
+
+.truncate-text.line-1 {
     -webkit-line-clamp: 1;
 }
-.truncate-text.line-2{
+
+.truncate-text.line-2 {
     -webkit-line-clamp: 2;
 }
-.truncate-text.line-3{
+
+.truncate-text.line-3 {
     -webkit-line-clamp: 3;
 }
-.truncate-text.line-4{
+
+.truncate-text.line-4 {
     -webkit-line-clamp: 4;
 }
-.truncate-text.line-5{
+
+.truncate-text.line-5 {
     -webkit-line-clamp: 5;
 }
-.truncate-text.line-6{
+
+.truncate-text.line-6 {
     -webkit-line-clamp: 6;
 }
