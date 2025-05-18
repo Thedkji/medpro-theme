@@ -1,4 +1,7 @@
 <link rel="stylesheet" href="./assets/css/menu-desktop.css">
+@push('scripts')
+    <script src="./assets/js/home/menu-desktop.js"></script>
+@endpush
 <ul class="menu">
     <li>
         <a href="###">

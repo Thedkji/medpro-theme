@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Bắt tất cả svg trong menu, bất kể cấp nào
-    let menuToggles = document.querySelectorAll('.medpro-header .menu-mobile svg');
-    let menuMobile = document.querySelector('.medpro-header .menu-mobile')
-    let btnMenuOpen = document.querySelector('.medpro-header .menu-mobile-btn');
-    let btnMenuClose = document.querySelector('.medpro-header .btn-close-mobile svg');
+    let menuToggles = document.querySelectorAll('.menu-mobile svg');
+    let menuMobile = document.querySelector('.menu-mobile')
+    let btnMenuOpen = document.querySelector('.menu-mobile-btn');
+    let btnMenuClose = document.querySelector('.btn-close-mobile svg');
     let overlay = document.querySelector('.overlay');
     btnMenuOpen.addEventListener('click', (e) => {
         e.preventDefault();
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-    
+
     overlay.addEventListener('click', (e) => {
         e.preventDefault();
         e.stopPropagation();
