@@ -1,9 +1,3 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/carousels/carousel4.css">
-@endpush
-@push('scripts')
-    <script src="./assets/js/carousels/carousel4.js"></script>
-@endpush
 <div class="banner-advertisement2 carousel4 relative">
     <div class="swiper">
         <div class="swiper-wrapper">

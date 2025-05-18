@@ -182,6 +182,5 @@
 
 @push('scripts')
     <script src="./assets/js/home/announcement-bar.js"></script>
-    <script src="./assets/js/home/banner-home/swiper-space-item.js"></script>
-    <script src="./assets/js/home/banner-home/text-typing-search.js"></script>
+    <script src="./assets/js/banner-home/text-typing-search.js"></script>
 @endpush

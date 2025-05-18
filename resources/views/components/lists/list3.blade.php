@@ -1,6 +1,3 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/lists/list3.css">
-@endpush
 <div class="home list3">
     <x-title.title2 :title="$titleC" />
 

@@ -1,9 +1,3 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/carousels/carousel5.css">
-@endpush
-@push('scripts')
-    <script src="./assets/js/carousels/carousel5.js"></script>
-@endpush
 <div class="container-item2 carousel5 container relative">
     <x-title.title2 :title="$titleC"/>
 

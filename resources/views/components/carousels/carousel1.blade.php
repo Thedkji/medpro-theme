@@ -1,9 +1,3 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/carousels/carousel1.css">
-@endpush
-@push('scripts')
-    <script src="./assets/js/carousels/carousel1.js"></script>
-@endpush
 <div class="carousel1 container relative">
     <x-title.title2 :title="$titleC" />
     <div class="swiper">

@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="./assets/css/btn/btn-language-select.css">
 <div class="button-language">
     <button type="button"
         class="ant-btn ant-btn-default styles_btnAntd__zap7d ant-dropdown-trigger styles_btnLanguage__8ISvU">

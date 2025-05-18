@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.addEventListener('click', (e) => {
                 e.preventDefault();
                 let key = e.target.dataset.list;
-                console.log(key);
                 activeBtn.forEach(btn => btn.classList.remove('active'));
                 btn.classList.add('active');
 
@@ -40,5 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    btnNavigation();
+     btnNavigation();
 });

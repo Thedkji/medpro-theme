@@ -1,0 +1,28 @@
+/* banner-info */
+@import url('./banner-info/banner-info1.css');
+
+/* btn */
+@import url('./btn/view-all.css');
+@import url('./btn/btn-language-select.css');
+@import url('./btn/btn-navigation.css');
+
+/* carousel */
+@import url('./carousels/carousel1.css');
+@import url('./carousels/carousel2.css');
+@import url('./carousels/carousel3.css');
+@import url('./carousels/carousel4.css');
+@import url('./carousels/carousel5.css');
+@import url('./carousels/carousel6.css');
+@import url('./carousels/carousel7.css');
+@import url('./carousels/carousel8.css');
+
+/* contents */
+@import url('./contents/content1.css');
+
+/* grids */
+@import url('./grids/grid1.css');
+
+/* lists */
+@import url('./lists/list1.css');
+@import url('./lists/list2.css');
+@import url('./lists/list3.css');
