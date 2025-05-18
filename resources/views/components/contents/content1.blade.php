@@ -1,8 +1,8 @@
 @push('styles')
-    <link rel="stylesheet" href="./assets/css/home/contents/content1.css">
+    <link rel="stylesheet" href="./assets/css/contents/content1.css">
 @endpush
 <div class="home content1 relative">
-    <x-title.title2 title="Tải ứng dụng Đặt khám nhanh " span="Medpro" spanClass="color-primary" />
+    <x-title.title2 :title="$titleC" :span="$spanC" spanClass="color-primary" />
 
     <div class="app">
         <div class="ios">

@@ -1,7 +1,7 @@
 @push('styles')
-    <link rel="stylesheet" href="./assets/css/home/grids/grid1.css">
+    <link rel="stylesheet" href="./assets/css/grids/grid1.css">
 @endpush
-<x-title.title2 title="Tin tức Y Tế" />
+<x-title.title2 :title="$titleC" />
 <div class="grid1">
     <div class="grid-item grid-item1">
         <div class="item">
