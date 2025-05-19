@@ -395,7 +395,7 @@
 
     <!-- quy trình tu medpro -->
     <div id="quy-trinh-tu-medpro">
-        <div class="styles_wrapper__glkE6" id="quytrinh">
+        <div class="styles_wrapper__glkE6 quytrinh" id="quytrinh">
             <div class="styles_highlightTitle__WH31a">
                 <h3>Vì Sao nên chọn đăng ký khám <br> sức khỏe doanh nghiệp qua medpro?</h3>
             </div>
@@ -444,4 +444,23 @@
         </div>
     </div>
     <!-- end quy trình tu medpro -->
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="<?php echo $url?>assets/imgs/co-so-y-te.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="<?php echo $url?>assets/imgs/co-so-y-te.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="<?php echo $url?>assets/imgs/co-so-y-te.jpg" alt="">
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+    </div>
 
