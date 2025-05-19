@@ -9,18 +9,29 @@
 <div class="banner-advertisement2 carousel4 relative">
     <div class="swiper">
         <div class="swiper-wrapper">
-            <!-- Slides -->
             <div class="swiper-slide">
-                <img src="./assets/imgs/ad7081b8-cfa0-40e8-b0d3-aeb2e9632e5b-desktop_-_banner_duoi.webp" alt="">
+                <a href="###">
+                    <img src="./assets/imgs/ad7081b8-cfa0-40e8-b0d3-aeb2e9632e5b-desktop_-_banner_duoi.webp"
+                        alt="">
+                </a>
             </div>
             <div class="swiper-slide">
-                <img src="./assets/imgs/ad7081b8-cfa0-40e8-b0d3-aeb2e9632e5b-desktop_-_banner_duoi.webp" alt="">
+                <a href="###">
+                    <img src="./assets/imgs/ad7081b8-cfa0-40e8-b0d3-aeb2e9632e5b-desktop_-_banner_duoi.webp"
+                        alt="">
+                </a>
             </div>
             <div class="swiper-slide">
-                <img src="./assets/imgs/ad7081b8-cfa0-40e8-b0d3-aeb2e9632e5b-desktop_-_banner_duoi.webp" alt="">
+                <a href="###">
+                    <img src="./assets/imgs/ad7081b8-cfa0-40e8-b0d3-aeb2e9632e5b-desktop_-_banner_duoi.webp"
+                        alt="">
+                </a>
             </div>
             <div class="swiper-slide">
-                <img src="./assets/imgs/ad7081b8-cfa0-40e8-b0d3-aeb2e9632e5b-desktop_-_banner_duoi.webp" alt="">
+                <a href="###">
+                    <img src="./assets/imgs/ad7081b8-cfa0-40e8-b0d3-aeb2e9632e5b-desktop_-_banner_duoi.webp"
+                        alt="">
+                </a>
             </div>
         </div>
     </div>

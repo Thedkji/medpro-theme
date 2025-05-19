@@ -13,6 +13,8 @@
     gap: 10px;
     padding: 18px 17px 16px;
     border-radius: var(--radius-lg);
+    transition: border 0.5s ease;
+    border: transparent;
 }
 
 #home>.bannerHome .swiper .swiper-slide>a {
@@ -20,7 +22,9 @@
     flex-direction: column;
     gap: 10px;
 }
-
+#home>.bannerHome .swiper .swiper-slide:hover {
+    border: 1px solid var(--color-primary);
+}
 
 #home>.bannerHome .swiper .swiper-slide img {
     width: 60px;
