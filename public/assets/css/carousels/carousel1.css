@@ -8,7 +8,6 @@
 }
 
 .carousel1 .swiper .swiper-slide>a {
-    height: 120px;
     display: flex;
     flex-direction: column;
     gap: 15px;

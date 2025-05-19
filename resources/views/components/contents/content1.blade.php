@@ -21,86 +21,59 @@
 
     <div class="content-container">
         <div class="content-item">
-            <div class="item">
-                <div class="content">
-                    <h3 class="title">Lấy số thứ tự khám nhanh trực tuyến</h3>
-                    <span>Đăng ký khám / tái khám nhanh theo ngày</span>
-                    <span>Đăng ký khám theo bác sĩ chuyên khoa</span>
-                    <span>Tái khám theo lịch hẹn</span>
+            @for ($i = 1; $i < 4; $i++)
+                <div class="item">
+                    <div class="content">
+                        <h3 class="title">{{ $titleItem ?? 'Lấy số thứ tự khám nhanh trực tuyến' }}</h3>
+
+                        @if ($subTitleItem ?? [])
+                            @foreach ($subTitleItem as $item)
+                                <span>{{ $item }}</span>
+                            @endforeach
+                        @else
+                            <span>Đăng ký khám / tái khám nhanh theo ngày</span>
+                            <span>Đăng ký khám theo bác sĩ chuyên khoa</span>
+                            <span>Tái khám theo lịch hẹn</span>
+                        @endif
+
+                    </div>
+                    <div class="img">
+                        <img src="./assets/imgs/{{ $imgItem ?? 'bae71420-d9ef-48b7-91a9-0151c50c73da-fcf47d13-a9c5-4be8-aa6c-4d4e9b162c19-icon_dang_ky.svg' }}"
+                            alt="">
+                    </div>
                 </div>
-                <div class="img">
-                    <img src="./assets/imgs/bae71420-d9ef-48b7-91a9-0151c50c73da-fcf47d13-a9c5-4be8-aa6c-4d4e9b162c19-icon_dang_ky.svg"
-                        alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="content">
-                    <h3 class="title">Lấy số thứ tự khám nhanh trực tuyến</h3>
-                    <span>Đăng ký khám / tái khám nhanh theo ngày</span>
-                    <span>Đăng ký khám theo bác sĩ chuyên khoa</span>
-                    <span>Tái khám theo lịch hẹn</span>
-                </div>
-                <div class="img">
-                    <img src="./assets/imgs/bae71420-d9ef-48b7-91a9-0151c50c73da-fcf47d13-a9c5-4be8-aa6c-4d4e9b162c19-icon_dang_ky.svg"
-                        alt="">
-                </div>
-            </div>
-            <div class="item">
-                <div class="content">
-                    <h3 class="title">Lấy số thứ tự khám nhanh trực tuyến</h3>
-                    <span>Đăng ký khám / tái khám nhanh theo ngày</span>
-                    <span>Đăng ký khám theo bác sĩ chuyên khoa</span>
-                    <span>Tái khám theo lịch hẹn</span>
-                </div>
-                <div class="img">
-                    <img src="./assets/imgs/bae71420-d9ef-48b7-91a9-0151c50c73da-fcf47d13-a9c5-4be8-aa6c-4d4e9b162c19-icon_dang_ky.svg"
-                        alt="">
-                </div>
-            </div>
+            @endfor
         </div>
 
         <div class="content-item">
-            <img src="./assets/imgs/ellipse.webp" alt="">
-            <img src="./assets/imgs/858c322c-7f26-48d3-a5df-e633e9a3592e-20240325-095443.webp" alt="">
+            <img src="{{ $bgImg ?? './assets/imgs/ellipse.webp' }}" alt="{{ $bgAlt ?? '' }}">
+            <img src="{{ $img ?? './assets/imgs/858c322c-7f26-48d3-a5df-e633e9a3592e-20240325-095443.webp' }}"
+                alt="{{ $alt ?? '' }}">
         </div>
 
         <div class="content-item">
-            <div class="item">
-                <div class="img">
-                    <img src="./assets/imgs/bae71420-d9ef-48b7-91a9-0151c50c73da-fcf47d13-a9c5-4be8-aa6c-4d4e9b162c19-icon_dang_ky.svg"
-                        alt="">
+            @for ($i = 1; $i < 4; $i++)
+                <div class="item">
+                    <div class="img">
+                        <img src="./assets/imgs/{{ $imgItem ?? 'bae71420-d9ef-48b7-91a9-0151c50c73da-fcf47d13-a9c5-4be8-aa6c-4d4e9b162c19-icon_dang_ky.svg' }}"
+                            alt="">
+                    </div>
+                    <div class="content">
+                        <h3 class="title">{{ $titleItem ?? 'Lấy số thứ tự khám nhanh trực tuyến' }}</h3>
+
+                        @if ($subTitleItem2 ?? [])
+                            @foreach ($subTitleItem2 as $item)
+                                <span>{{ $item }}</span>
+                            @endforeach
+                        @else
+                            <span>Đăng ký khám / tái khám nhanh theo ngày</span>
+                            <span>Đăng ký khám theo bác sĩ chuyên khoa</span>
+                            <span>Tái khám theo lịch hẹn</span>
+                        @endif
+
+                    </div>
                 </div>
-                <div class="content">
-                    <h3 class="title">Lấy số thứ tự khám nhanh trực tuyến</h3>
-                    <span>Đăng ký khám / tái khám nhanh theo ngày</span>
-                    <span>Đăng ký khám theo bác sĩ chuyên khoa</span>
-                    <span>Tái khám theo lịch hẹn</span>
-                </div>
-            </div>
-            <div class="item">
-                <div class="img">
-                    <img src="./assets/imgs/bae71420-d9ef-48b7-91a9-0151c50c73da-fcf47d13-a9c5-4be8-aa6c-4d4e9b162c19-icon_dang_ky.svg"
-                        alt="">
-                </div>
-                <div class="content">
-                    <h3 class="title">Lấy số thứ tự khám nhanh trực tuyến</h3>
-                    <span>Đăng ký khám / tái khám nhanh theo ngày</span>
-                    <span>Đăng ký khám theo bác sĩ chuyên khoa</span>
-                    <span>Tái khám theo lịch hẹn</span>
-                </div>
-            </div>
-            <div class="item">
-                <div class="img">
-                    <img src="./assets/imgs/bae71420-d9ef-48b7-91a9-0151c50c73da-fcf47d13-a9c5-4be8-aa6c-4d4e9b162c19-icon_dang_ky.svg"
-                        alt="">
-                </div>
-                <div class="content">
-                    <h3 class="title">Lấy số thứ tự khám nhanh trực tuyến</h3>
-                    <span>Đăng ký khám / tái khám nhanh theo ngày</span>
-                    <span>Đăng ký khám theo bác sĩ chuyên khoa</span>
-                    <span>Tái khám theo lịch hẹn</span>
-                </div>
-            </div>
+            @endfor
         </div>
     </div>
 </div>

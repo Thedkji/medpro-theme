@@ -35,9 +35,9 @@
                         <g>
                             <path
                                 d="M20.031,20.79c0.46,0.46,1.17-0.25,0.71-0.7l-3.75-3.76c1.27-1.41,2.04-3.27,2.04-5.31
-                                                                                                                                                            c0-4.39-3.57-7.96-7.96-7.96s-7.96,3.57-7.96,7.96c0,4.39,3.57,7.96,7.96,7.96c1.98,0,3.81-0.73,5.21-1.94L20.031,20.79z
-                                                                                                                                                            M4.11,11.02c0-3.84,3.13-6.96,6.96-6.96c3.84,0,6.96,3.12,6.96,6.96c0,3.84-3.12,6.96-6.96,6.96C7.24,17.98,4.11,14.86,4.11,11.02
-                                                                                                                                                            z">
+                                                                                                                                                                                                                            c0-4.39-3.57-7.96-7.96-7.96s-7.96,3.57-7.96,7.96c0,4.39,3.57,7.96,7.96,7.96c1.98,0,3.81-0.73,5.21-1.94L20.031,20.79z
+                                                                                                                                                                                                                            M4.11,11.02c0-3.84,3.13-6.96,6.96-6.96c3.84,0,6.96,3.12,6.96,6.96c0,3.84-3.12,6.96-6.96,6.96C7.24,17.98,4.11,14.86,4.11,11.02
+                                                                                                                                                                                                                            z">
                             </path>
                         </g>
                     </svg>
@@ -88,7 +88,6 @@
 
         <div class="m-content"></div>
         <div class="">
-
             <x-carousels.carousel1 :titleC="'Được tin tưởng hợp tác và đồng hành'" />
         </div>
 
@@ -122,14 +121,18 @@
 
         <div class="bg-content">
             <div class="">
-                <x-carousels.carousel6 titleC="Chăm sóc sức khỏe toàn diện" />
+                <x-carousels.carousel6 titleC="Chăm sóc sức khỏe toàn diện" :active="[
+                    'suckhoe' => 'Sức khỏe',
+                ]" :list="[
+                    'xetnghiem' => 'Xét nghiệm',
+                ]" />
             </div>
         </div>
 
         <div class="bg-div-content"></div>
         <div class="">
             <div class="container">
-                <x-lists.list1 titleC="Chuyên khoa" />
+                <x-lists.list1 titleC="Chuyên khoa" viewAll="Xem tất cả" />
             </div>
         </div>
 
@@ -137,6 +140,7 @@
             <x-contents.content1 titleC="Tải ứng dụng Đặt khám nhanh" spanC="Medpro" />
         </div>
 
+        @endphp
         <div class="">
             <x-carousels.carousel7 titleC="Cảm nhận từ khách hàng" />
         </div>
