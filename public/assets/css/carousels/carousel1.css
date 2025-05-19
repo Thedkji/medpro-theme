@@ -1,0 +1,27 @@
+.carousel1 {
+    text-align: center;
+}
+
+.carousel1 .swiper {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.carousel1 .swiper .swiper-slide>a {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.carousel1 .swiper .swiper-slide>a img {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+}
+
+/* @media (max-width:900px) {
+    .carousel1  .swiper-button-next ,
+    .carousel1  .swiper-button-prev{
+        display: none;
+    }
+} */

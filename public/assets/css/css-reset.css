@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+
+/* Reset font cho các thẻ cụ thể */
+body,
+button,
+input,
+select,
+textarea {
+    font-family: var(--font-primary);
+}
+
+/* Reset font cho các thẻ heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-primary);
+    color: var(--color-secondary);
+}
+
+p {
+    color: var(--color-secondary);
+}
+
+h2 {
+    font-size: var(--fs-5xl);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+.container {
+    padding: 30px clamp(60px, 7vw, 100px);
+    margin: auto;
+}
+
+.body-pt {
+    padding-top: 145px;
+}
+
+@media only screen and (max-width: 1128px) {
+    .body-pt {
+        padding-top: 75px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .container {
+        max-width: 1340px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        max-width: 1420px;
+    }
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    box-shadow: var(--shadow-base);
+    border-radius: 9999px;
+}
+
+.swiper-button-prev svg {
+    position: relative;
+    right: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.swiper-button-next {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    box-shadow: var(--shadow-base);
+    border-radius: 9999px;
+}
+
+.swiper-button-next svg {
+    position: relative;
+    left: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.relative .swiper-button-prev {
+    left: 1.5%;
+    top: 55%;
+}
+
+.relative .swiper-button-next {
+    right: 1.5%;
+    top: 55%;
+}
+
+/* luôn luôn đặt 1 thẻ div có class .bg-div-content ở dưới bg-content  */
+.bg-div-content {
+    background: linear-gradient(0deg, #fff, #ebf2ff);
+    height: 35px;
+}
+
+.bg-div-content2 {
+    background: linear-gradient(180deg, #fff, #ebf2ff);
+    height: 35px;
+}
+
+.bg-content {
+    background: rgb(232, 244, 253);
+}
+
+.m-content {
+    margin-block: 30px;
+}
+
+.color-tertiary {
+    color: var(--color-tertiary);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.m-block30 {
+    margin-block: 30px;
+}
+
+.m-top50 {
+    margin-top: 50px;
+}
+
+/* Muốn sử dụng thì phần tử được add vào phải set width để giới hạn */
+.truncate-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.truncate-text.line-1 {
+    -webkit-line-clamp: 1;
+}
+
+.truncate-text.line-2 {
+    -webkit-line-clamp: 2;
+}
+
+.truncate-text.line-3 {
+    -webkit-line-clamp: 3;
+}
+
+.truncate-text.line-4 {
+    -webkit-line-clamp: 4;
+}
+
+.truncate-text.line-5 {
+    -webkit-line-clamp: 5;
+}
+
+.truncate-text.line-6 {
+    -webkit-line-clamp: 6;
+}

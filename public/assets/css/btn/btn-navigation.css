@@ -1,0 +1,24 @@
+.btn-navigation{
+    justify-content: center;
+    margin: 20px 0;
+    height: 35px;
+    display: flex;
+    gap: 10px;
+}
+.btn-navigation button{
+    min-width: 100px;
+    height: 100%;
+    border: transparent;
+    font-weight: bold;
+    border-radius: var(--radius-base);
+    background: transparent;
+    color: var(--color-primary);
+    transition: border 0.5s ease;
+}
+.btn-navigation button.active{
+    background-color: var(--color-primary);
+    color: var(--color-accent);
+}
+.btn-navigation button:hover{
+    border: 1px solid var(--color-primary);
+}
