@@ -32,11 +32,11 @@
     margin: auto;
 }
 
-@media (max-width:919px) {
+/* @media (max-width:919px) {
     #home>.bannerHome .swiper-container {
         margin: 20px auto;
     }
-}
+} */
 
 @media (max-width:815px) {
     #home>.bannerHome .swiper-container {

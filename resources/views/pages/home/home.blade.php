@@ -24,7 +24,7 @@
 
 
     <div id="home">
-        <img src="./assets/imgs/92b6d682-4b5a-4c94-ac54-97a077c0c6c5-homepage_banner.webp" alt="">
+        {{-- <img src="./assets/imgs/92b6d682-4b5a-4c94-ac54-97a077c0c6c5-homepage_banner.webp" alt=""> --}}
         <div class="bannerHome">
             <div class="container">
                 <h1>Kết nối Người Dân với Cơ sở & Dịch vụ Y tế hàng đầu</h1>
@@ -140,7 +140,6 @@
             <x-contents.content1 titleC="Tải ứng dụng Đặt khám nhanh" spanC="Medpro" />
         </div>
 
-        @endphp
         <div class="">
             <x-carousels.carousel7 titleC="Cảm nhận từ khách hàng" />
         </div>
