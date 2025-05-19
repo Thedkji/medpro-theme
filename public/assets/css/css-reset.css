@@ -61,7 +61,7 @@ button {
 }
 
 .container {
-    padding: 30px clamp(30px, 7vw, 100px);
+    padding: 30px clamp(60px, 7vw, 100px);
     margin: auto;
 }
 
