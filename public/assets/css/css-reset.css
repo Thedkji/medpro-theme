@@ -27,8 +27,7 @@ h6 {
     color: var(--color-secondary);
 }
 
-p,
-span {
+p {
     color: var(--color-secondary);
 }
 
@@ -41,7 +40,7 @@ ul {
 }
 
 a {
-    color: black;
+    color: var(--color-secondary);
     text-decoration: none;
     cursor: pointer;
 }
@@ -62,9 +61,20 @@ button {
 }
 
 .container {
-    padding-inline: 100px;
+    padding: 30px clamp(30px, 7vw, 100px);
     margin: auto;
 }
+
+.body-pt {
+    padding-top: 145px;
+}
+
+@media only screen and (max-width: 1128px) {
+    .body-pt {
+        padding-top: 75px;
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
     .container {
@@ -141,44 +151,87 @@ button {
 .relative {
     position: relative;
 }
-.relative .swiper-button-prev{
-    left: -60px;
-    top: 50%;
-}
-.relative .swiper-button-next{
-    right: -60px;
-    top: 50%;
+
+.relative .swiper-button-prev {
+    left: 1.5%;
+    top: 55%;
 }
 
-body {
-    height: 100000px;
+.relative .swiper-button-next {
+    right: 1.5%;
+    top: 55%;
 }
 
 /* luôn luôn đặt 1 thẻ div có class .bg-div-content ở dưới bg-content  */
 .bg-div-content {
     background: linear-gradient(0deg, #fff, #ebf2ff);
-    height: 68.15px;
+    height: 35px;
 }
+
 .bg-div-content2 {
-    background: linear-gradient(180deg,#fff,#ebf2ff);
-    height: 68.15px;
+    background: linear-gradient(180deg, #fff, #ebf2ff);
+    height: 35px;
 }
 
 .bg-content {
-    background: linear-gradient(180deg, #fff, #ebf2ff);
+    background: rgb(232, 244, 253);
 }
-.m-content{
-    margin-block: 20px ;
+
+.m-content {
+    margin-block: 30px;
 }
-.color-tertiary{
+
+.color-tertiary {
     color: var(--color-tertiary);
 }
-.color-primary{
+
+.color-primary {
     color: var(--color-primary);
 }
-.none{
+
+.none {
     display: none;
 }
-.block{
+
+.block {
     display: block;
+}
+
+.m-block30 {
+    margin-block: 30px;
+}
+
+.m-top50 {
+    margin-top: 50px;
+}
+
+/* Muốn sử dụng thì phần tử được add vào phải set width để giới hạn */
+.truncate-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.truncate-text.line-1 {
+    -webkit-line-clamp: 1;
+}
+
+.truncate-text.line-2 {
+    -webkit-line-clamp: 2;
+}
+
+.truncate-text.line-3 {
+    -webkit-line-clamp: 3;
+}
+
+.truncate-text.line-4 {
+    -webkit-line-clamp: 4;
+}
+
+.truncate-text.line-5 {
+    -webkit-line-clamp: 5;
+}
+
+.truncate-text.line-6 {
+    -webkit-line-clamp: 6;
 }

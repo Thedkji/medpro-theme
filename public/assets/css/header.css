@@ -1,20 +1,32 @@
-.medpro-header {
+.header-fixed {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 5fr;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    z-index: 998;
+    transform: translateX(-50%);
+    background: white;
 }
 
-.medpro-header>.header-left {
+.medpro-header {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 0 20px;
+}
+
+.medpro-header .header-left {
     text-align: center;
     align-content: center;
 }
 
-.medpro-header>.header-left img {
+.medpro-header .header-left img {
     width: 132px;
     height: 38px;
 }
 
-.medpro-header>.header-right>.header {
+.medpro-header .header-right>.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,20 +34,20 @@
     padding: 20px 0;
 }
 
-.medpro-header>.header-right>.header>.social {
+.medpro-header .header-right>.header>.social {
     display: flex;
     gap: 30px;
 }
 
-.medpro-header>.header-right>.header>.social>div {
+.medpro-header .header-right>.header>.social>div {
     position: relative;
 }
 
-.medpro-header>.header-right>.header>.social>div:hover a {
+.medpro-header .header-right>.header>.social>div:hover a {
     color: #00b5f1;
 }
 
-.medpro-header>.header-right>.header>.social>div:nth-of-type(n+2)::after {
+.medpro-header .header-right>.header>.social>div:nth-of-type(n+2)::after {
     content: "";
     display: block;
     width: 1px;
@@ -47,7 +59,7 @@
     background-color: #003553;
 }
 
-.medpro-header>.header-right>.header>.social>div a {
+.medpro-header .header-right>.header>.social>div a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,14 +69,14 @@
     transition: color 0.2s linear;
 }
 
-.medpro-header>.header-right>.header>.action-bar {
+.medpro-header .header-right>.header>.action-bar {
     display: flex;
     align-items: center;
     gap: 20px;
     padding-right: 50px;
 }
 
-.medpro-header>.header-right>.header>.action-bar button {
+.medpro-header .header-right>.header>.action-bar button {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -75,7 +87,7 @@
 
 }
 
-.medpro-header>.header-right>.header>.action-bar button>span {
+.medpro-header .header-right>.header>.action-bar button>span {
     font-size: 16px;
     font-weight: 500;
 }
@@ -86,6 +98,7 @@
     transition: all 0.5s ease;
     border: none;
 }
+
 .medpro-header .button-app>button:nth-child(1)>span {
     color: white;
 }
@@ -108,100 +121,29 @@
     background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%);
 }
 
-.medpro-header .button-language button {
-    width: 100%;
-    height: 39px;
-    padding: unset;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    border: 1px solid  transparent !important;
-    border-radius: unset !important;
-    transition: border 0.3s ease, border-radius 0.5s ease;
-}
-
-.medpro-header .button-language:hover button {
-    border: 1px solid #00b5f1 !important;
-    border-radius: 10px !important;
-}
-
-.medpro-header .button-language {
-    position: relative;
-}
-
-.medpro-header .button-language:hover .language-menu {
-    transform: translateY(8px);
-    visibility: visible;
-}
-
-.medpro-header .button-language .language-menu {
-    position: absolute;
-    min-width: 150px;
-    border-radius: 5px;
-    right: 0%;
-    top: 100%;
-    background-color: rgb(244, 244, 244);
-    box-shadow: 0 1px 7px 1px rgba(0, 0, 0, .08);
-    z-index: 30;
-    transform: translateY(20px);
-    overflow: hidden;
-    visibility: hidden;
-    transition: transform 0.3s ease, overflow 0.3s ease, visibility 0.3s ease;
-}
-
-.medpro-header .button-language .language-menu>ul>li {
-    display: flex;
-    align-items: center;
-    padding: 13px 15px;
-    gap: 8px;
-}
-
-.medpro-header .button-language .language-menu>ul>li:first-child {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.medpro-header .button-language .language-menu>ul>li:last-child {
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.medpro-header .button-language .language-menu>ul>li:hover {
-    background-color: rgb(254, 252, 252);
-}
-
-.medpro-header .button-language .language-menu>ul>li.active {
-    border-left: 2px solid #00b5f1;
-    background-color: #e6f2ff;
-}
-
-.medpro-header .button-language .language-menu>ul>li.active>a {
-    color: #00b5f1;
-}
-
-.medpro-header>.header-right>.body {
+.medpro-header .header-right>.body {
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
     padding: 5px 0px;
 }
 
-.medpro-header>.header-right>.body>.contact {
+.medpro-header .header-right>.body>.contact {
     display: flex;
     gap: 10px;
 }
 
-.medpro-header>.header-right>.body>.contact .logo img {
+.medpro-header .header-right>.body>.contact .logo img {
     width: 40px;
     height: 40px;
 }
 
-.medpro-header>.header-right>.body>.contact .info a {
+.medpro-header .header-right>.body>.contact .info a {
     color: #003553;
     font-weight: 500;
 }
 
-.medpro-header>.header-right>.body>.contact .info a>p {
+.medpro-header .header-right>.body>.contact .info a>p {
     font-size: 25px;
     color: #ffb54a;
     font-weight: 500;
@@ -209,36 +151,35 @@
 
 /* responsive */
 @media (max-width: 1128px) {
-    .medpro-header>.header-right>.header>.social {
+    .medpro-header .header-right>.header>.social {
         display: none;
     }
 
-    .medpro-header>.header-right>.header>.action-bar>.button-app,
-    .medpro-header>.header-right>.header>.action-bar>.button-login {
+    .medpro-header .header-right>.header>.action-bar>.button-app,
+    .medpro-header .header-right>.header>.action-bar>.button-login {
         display: none;
     }
 
-    .medpro-header>.header-right>.body {
+    .medpro-header .header-right>.body {
         display: none;
     }
 
-    .medpro-header>.header-right>.header {
+    .medpro-header .header-right>.header {
         border-bottom: unset;
         justify-content: end;
-        padding: 15px;
     }
 
-    .medpro-header>.header-left img {
+    .medpro-header .header-left img {
         width: 120px;
         height: 50px;
     }
 
-    .medpro-header>.header-right>.header>.action-bar {
+    .medpro-header .header-right>.header>.action-bar {
         gap: unset;
         padding-right: 0px;
     }
 
-    .medpro-header>.header-right>.header>.action-bar button {
+    .medpro-header .header-right>.header>.action-bar button {
         padding: 0px 5px;
         background: transparent;
         border: none;

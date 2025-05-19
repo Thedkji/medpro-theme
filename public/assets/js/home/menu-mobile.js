@@ -1,20 +1,22 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Bắt tất cả svg trong menu, bất kể cấp nào
-    let menuToggles = document.querySelectorAll('.medpro-header .menu-mobile svg');
-    let menuMobile = document.querySelector('.medpro-header .menu-mobile')
-    let btnMenuOpen = document.querySelector('.medpro-header .menu-mobile-btn');
-    let btnMenuClose = document.querySelector('.medpro-header .btn-close-mobile svg');
+    let menuToggles = document.querySelectorAll('.menu-mobile svg');
+    let menuMobile = document.querySelector('.menu-mobile')
+    let btnMenuOpen = document.querySelector('.menu-mobile-btn');
+    let btnMenuClose = document.querySelector('.btn-close-mobile svg');
     let overlay = document.querySelector('.overlay');
     btnMenuOpen.addEventListener('click', (e) => {
         e.preventDefault();
         e.stopPropagation();
         menuMobile.style.transform = "translateX(0)";
+        menuMobile.style.visibility = "visible";
         overlay.style.display = "block";
     })
     btnMenuClose.addEventListener('click', (e) => {
         e.preventDefault();
         e.stopPropagation();
         menuMobile.style.transform = "translateX(1000px)";
+        menuMobile.style.visibility = "hidden";
         overlay.style.display = "none";
     })
 
@@ -59,11 +61,12 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-    
+
     overlay.addEventListener('click', (e) => {
         e.preventDefault();
         e.stopPropagation();
         menuMobile.style.transform = "translateX(1000px)";
+        menuMobile.style.visibility = "hidden";
         overlay.style.display = "none";
     })
 

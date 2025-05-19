@@ -1,12 +1,11 @@
 #home {
     width: 100%;
-    height: 500px;
     position: relative;
 }
 
 #home>img {
     width: 100%;
-    height: 100%;
+    height: clamp(250px, 50vw, 100%);
 }
 
 #home>.bannerHome {
@@ -20,7 +19,7 @@
 
 #home>.bannerHome h1:first-child {
     color: var(--color-secondary);
-    font-size: clamp(25px,2.5vw,var(--fs-8xl));
+    font-size: clamp(25px, 2.5vw, var(--fs-8xl));
 }
 
 #home>.bannerHome .search {
@@ -28,7 +27,26 @@
     width: 50%;
     height: 60px;
     margin: 20px auto;
+}
 
+@media (max-width:768px) {
+    #home>.bannerHome .search {
+        width: 70%;
+        height: 50px;
+    }
+}
+
+@media (max-width:580px) {
+    #home>.bannerHome .space-item {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    #home>.bannerHome .search {
+        width: 100%;
+        height: 50px;
+    }
 }
 
 #home>.bannerHome .search input {
@@ -55,41 +73,22 @@
     text-align: start;
     display: flex;
     justify-content: end;
+    align-items: center;
     flex-direction: column;
     gap: 5px;
     margin: auto;
 }
 
+
 #home>.bannerHome ul li {
     display: flex;
-    align-items: end;
+    align-items: center;
     gap: 5px;
     color: var(--color-secondary);
     font-size: var(--fs-base);
 }
 
-#home>.bannerHome .swiper-container {
-    position: relative;
-    margin: 50px 0;
+#home>.bannerHome .space-item ul>li span {
+    width: 500px;
 }
-
-
-#home>.bannerHome .swiper .swiper-slide {
-    width: 100px;
-    height: max-content;
-    background-color: white;
-    box-shadow: var(--shadow-base);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 18px 17px 16px;
-    border-radius: var(--radius-lg);
-}
-
-#home>.bannerHome .swiper .swiper-slide img {
-    width: 60px;
-    height: 60px;
-    margin: auto;
-}
-
 

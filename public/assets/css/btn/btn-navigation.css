@@ -6,7 +6,7 @@
     gap: 10px;
 }
 .btn-navigation button{
-    width: 8%;
+    min-width: 100px;
     height: 100%;
     border: transparent;
     font-weight: bold;

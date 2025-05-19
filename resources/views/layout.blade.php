@@ -15,15 +15,21 @@
 <body>
     <div class="overlay"></div>
 
-    <header class="medpro-header">
-        @include('components.header')
-    </header>
+    <div class="header-fixed">
+        <header class="medpro-header container">
+            @include('components.header')
+        </header>
+    </div>
 
-    <main>
+    @include('components.menu-mobile')
+
+    <main class="body-pt">
         @yield('contents')
     </main>
 
-    <footer></footer>
+    <footer>
+        @include('components.footer')
+    </footer>
 </body>
 
 <script src="./assets/library/swiper-bundle.min.js"></script>

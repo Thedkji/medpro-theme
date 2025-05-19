@@ -1,9 +1,11 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/home/carousels/carousel2.css">
-@endpush
-@push('scripts')
-    <script src="./assets/js/home/carousels/carousel2.js"></script>
-@endpush
+@once
+    @push('styles')
+        <link rel="stylesheet" href="./assets/css/carousels/carousel2.css">
+    @endpush
+    @push('scripts')
+        <script src="./assets/js/carousels/carousel2.js"></script>
+    @endpush
+@endonce
 <div class="banner-advertisement carousel2 relative">
     <div class="swiper">
         <div class="swiper-wrapper">
