@@ -1,11 +1,13 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/carousels/carousel5.css">
-@endpush
-@push('scripts')
-    <script src="./assets/js/carousels/carousel5.js"></script>
-@endpush
+@once
+    @push('styles')
+        <link rel="stylesheet" href="./assets/css/carousels/carousel5.css">
+    @endpush
+    @push('scripts')
+        <script src="./assets/js/carousels/carousel5.js"></script>
+    @endpush
+@endonce
 <div class="container-item2 carousel5 container relative">
-    <x-title.title2 :title="$titleC"/>
+    <x-title.title2 :title="$titleC" />
 
     <div class="content-container swiper m-content">
         <div class="swiper-wrapper" id="swiper-wrapper-d4696beef0e0f8fe" aria-live="polite">
@@ -78,7 +80,7 @@
                 </div>
             </div>
 
-              <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
+            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
                 style="width: 275.25px; margin-right: 20px;">
                 <div class="content-item">
                     <a href="###">
@@ -146,7 +148,7 @@
                 </div>
             </div>
 
-              <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
+            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
                 style="width: 275.25px; margin-right: 20px;">
                 <div class="content-item">
                     <a href="###">
@@ -214,7 +216,7 @@
                 </div>
             </div>
 
-              <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
+            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
                 style="width: 275.25px; margin-right: 20px;">
                 <div class="content-item">
                     <a href="###">
@@ -282,7 +284,7 @@
                 </div>
             </div>
 
-              <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
+            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
                 style="width: 275.25px; margin-right: 20px;">
                 <div class="content-item">
                     <a href="###">
@@ -353,9 +355,9 @@
         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
     </div>
 
-    <x-navigation-swiper/>
+    <x-navigation-swiper />
 
     <link rel="stylesheet" href="./assets/css/btn/view-all.css">
 
-    <x-btn.view-all content="Xem tất cả"/>
+    <x-btn.view-all content="Xem tất cả" />
 </div>

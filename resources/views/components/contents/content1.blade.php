@@ -1,6 +1,8 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/contents/content1.css">
-@endpush
+@once
+    @push('styles')
+        <link rel="stylesheet" href="./assets/css/contents/content1.css">
+    @endpush
+@endonce
 <div class="home content1 relative">
     <x-title.title2 :title="$titleC" :span="$spanC" spanClass="color-primary" />
 
@@ -31,7 +33,7 @@
                         alt="">
                 </div>
             </div>
-             <div class="item">
+            <div class="item">
                 <div class="content">
                     <h3 class="title">Lấy số thứ tự khám nhanh trực tuyến</h3>
                     <span>Đăng ký khám / tái khám nhanh theo ngày</span>
@@ -43,7 +45,7 @@
                         alt="">
                 </div>
             </div>
-             <div class="item">
+            <div class="item">
                 <div class="content">
                     <h3 class="title">Lấy số thứ tự khám nhanh trực tuyến</h3>
                     <span>Đăng ký khám / tái khám nhanh theo ngày</span>

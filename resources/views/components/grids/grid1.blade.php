@@ -1,6 +1,8 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/grids/grid1.css">
-@endpush
+@once
+    @push('styles')
+        <link rel="stylesheet" href="./assets/css/grids/grid1.css">
+    @endpush
+@endonce
 <x-title.title2 :title="$titleC" />
 <div class="grid1">
     <div class="grid-item grid-item1">
@@ -96,4 +98,4 @@
         </div>
     </div>
 </div>
-<x-btn.view-all/>
+<x-btn.view-all />

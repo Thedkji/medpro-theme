@@ -1,9 +1,11 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/carousels/carousel7.css">
-@endpush
-@push('scripts')
-    <script src="./assets/js/carousels/carousel7.js"></script>
-@endpush
+@once
+    @push('styles')
+        <link rel="stylesheet" href="./assets/css/carousels/carousel7.css">
+    @endpush
+    @push('scripts')
+        <script src="./assets/js/carousels/carousel7.js"></script>
+    @endpush
+@endonce
 <div class="carousel7 container relative">
     <x-title.title2 :title="$titleC" />
 
@@ -20,11 +22,11 @@
                                 liền
                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
                             </span>
                         </div>
@@ -47,11 +49,11 @@
                                 liền
                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
                             </span>
                         </div>
@@ -74,11 +76,11 @@
                                 liền
                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
                             </span>
                         </div>
@@ -101,11 +103,11 @@
                                 liền
                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
-                                 không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
+                                không rườm rà gì mấy. An tâm đặt cho gia đình, có cả xét nghiệm tận nhà, không mất thời
                                 gian.
                             </span>
                         </div>

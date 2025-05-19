@@ -1,6 +1,8 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/banner-info/banner-info1.css">
-@endpush
+@once
+    @push('styles')
+        <link rel="stylesheet" href="./assets/css/banner-info/banner-info1.css">
+    @endpush
+@endonce
 <style>
     .banner-info1 {
         background-image: url('./assets/imgs/0f04db66-ff2a-49b5-9f63-e18f4c7ef354-bg-contact-desktop.webp');
@@ -42,13 +44,16 @@
             flex-wrap: wrap;
             margin: auto;
         }
-        .banner-info1 .content .item:nth-child(2) p:first-child{
+
+        .banner-info1 .content .item:nth-child(2) p:first-child {
             font-size: var(--fs-4xl);
         }
-        .banner-info1 .content .item:nth-child(2) p:last-child{
+
+        .banner-info1 .content .item:nth-child(2) p:last-child {
             font-size: var(--fs-8xl);
         }
-        .banner-info1 .content .item:nth-child(2){
+
+        .banner-info1 .content .item:nth-child(2) {
             margin-top: 20px;
         }
     }

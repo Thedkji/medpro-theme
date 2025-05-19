@@ -1,6 +1,8 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/lists/list2.css">
-@endpush
+@once
+    @push('styles')
+        <link rel="stylesheet" href="./assets/css/lists/list2.css">
+    @endpush
+@endonce
 <div class="home list2 relative">
     <x-title.title3 :title="$titleC" :subTitle="$subTitleC" />
 

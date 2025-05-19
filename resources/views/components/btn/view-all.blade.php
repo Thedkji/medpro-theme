@@ -1,8 +1,10 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/btn/view-all.css">
-@endpush
+@once
+    @push('styles')
+        <link rel="stylesheet" href="./assets/css/btn/view-all.css">
+    @endpush
+@endonce
 <style>
-{{ $style ?? '' }}
+    {{ $style ?? '' }}
 </style>
 <div class="view-all">
     <a href="{{ $link ?? '#' }}">

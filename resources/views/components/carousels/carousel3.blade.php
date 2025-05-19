@@ -1,9 +1,11 @@
-@push('styles')
-    <link rel="stylesheet" href="./assets/css/carousels/carousel3.css">
-@endpush
-@push('scripts')
-    <script src="./assets/js/carousels/carousel3.js"></script>
-@endpush
+@once
+    @push('styles')
+        <link rel="stylesheet" href="./assets/css/carousels/carousel3.css">
+    @endpush
+    @push('scripts')
+        <script src="./assets/js/carousels/carousel3.js"></script>
+    @endpush
+@endonce
 <div class="container-item1 carousel3 container relative">
     <x-title.title2 :title="$titleC" />
 
@@ -92,7 +94,7 @@
                     <x-btn.btn1 content="Đặt khám ngay" />
                 </a>
             </div>
-             <div class="swiper-slide">
+            <div class="swiper-slide">
                 <a href="###" style="display: inline-block">
                     <div class="img">
                         <img src="./assets/imgs/4db1fb51-2669-492f-b3d7-f08005451770-mark_dc-removebg-preview.webp"
@@ -175,7 +177,7 @@
                     <x-btn.btn1 content="Đặt khám ngay" />
                 </a>
             </div>
-             <div class="swiper-slide">
+            <div class="swiper-slide">
                 <a href="###" style="display: inline-block">
                     <div class="img">
                         <img src="./assets/imgs/4db1fb51-2669-492f-b3d7-f08005451770-mark_dc-removebg-preview.webp"
@@ -258,7 +260,7 @@
                     <x-btn.btn1 content="Đặt khám ngay" />
                 </a>
             </div>
-             <div class="swiper-slide">
+            <div class="swiper-slide">
                 <a href="###" style="display: inline-block">
                     <div class="img">
                         <img src="./assets/imgs/4db1fb51-2669-492f-b3d7-f08005451770-mark_dc-removebg-preview.webp"
@@ -341,7 +343,7 @@
                     <x-btn.btn1 content="Đặt khám ngay" />
                 </a>
             </div>
-             <div class="swiper-slide">
+            <div class="swiper-slide">
                 <a href="###" style="display: inline-block">
                     <div class="img">
                         <img src="./assets/imgs/4db1fb51-2669-492f-b3d7-f08005451770-mark_dc-removebg-preview.webp"
@@ -421,7 +423,7 @@
                             </ul>
                         </div>
                     </div>
-                    <x-btn.btn1 content="Đặt khám ngay"/>
+                    <x-btn.btn1 content="Đặt khám ngay" />
                 </a>
             </div>
         </div>
