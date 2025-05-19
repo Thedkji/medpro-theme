@@ -1,0 +1,100 @@
+footer .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+}
+
+footer .container .item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .container .item1>a img {
+    width: 220px;
+}
+
+footer .container .item1 .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .container .item1 .info .title {
+    font-weight: var(--fw-bold);
+}
+
+footer .container .item1 .info span {
+    font-size: var(--fs-base);
+}
+
+footer .container .item2 .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+footer .container .item2 .grid .title {
+    font-weight: var(--fw-bold);
+}
+
+footer .container .item2 .grid .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+footer .container .item2 .grid .contents a {
+    transition: color 0.5s ease;
+}
+
+footer .container .item2 .grid .contents a:hover {
+    color: var(--color-primary);
+}
+
+footer .container .item2 .img-bar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+    min-width: 200px;
+    max-width: max-content;
+}
+
+footer .container .item2 .img-bar img {
+    width: 97px;
+    height: 30px;
+}
+
+footer .sub-footer {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+footer .sub-footer p {
+    color: white;
+}
+
+@media screen and (max-width: 1108px) {
+    footer .container .item2 .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer .container {
+        grid-template-columns: 1fr;
+    }
+
+    footer .sub-footer {
+        display: block;
+        align-content: center;
+        text-align: center;
+    }
+}
