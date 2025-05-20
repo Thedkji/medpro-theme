@@ -1,38 +1,23 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper(".banner-advertisement  .swiper", {
-        direction: "horizontal", // Hướng chuyển động ngang
-        loop: false, // Cho phép lặp lại vòng quay slider
+    const banners = document.querySelectorAll('.carousel2');
 
-        effect: "slide", // Hiệu ứng chuyển động giữa các slide
+    banners.forEach(banner => {
+        const swiperEl = banner.querySelector('.swiper');
+        const paginationEl = banner.querySelector('.swiper-pagination');
 
-        // min-width
-        breakpoints: {
-            640: {
-                slidesPerView: 1,
-                spaceBetween: 20,
+        new Swiper(swiperEl, {
+            direction: "horizontal",
+            loop: false,
+            effect: "slide",
+            breakpoints: {
+                640: { slidesPerView: 1, spaceBetween: 20 },
+                768: { slidesPerView: 1, spaceBetween: 20 },
+                1024: { slidesPerView: 1, spaceBetween: 20 },
             },
-            768: {
-                slidesPerView: 1,
-                spaceBetween: 20,
+            pagination: {
+                el: paginationEl,
+                clickable: true,
             },
-            1024: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-            },
-        },
-        pagination:{
-            el: '.banner-advertisement .swiper-pagination',
-            clickable:true
-        }
-
-        // autoplay: {
-        //     delay: 1000, // Tự động chuyển slide sau mỗi 1 giây
-        //     disableOnInteraction: false, // Cho phép chuyển slide khi người dùng chạm vào
-        //     pauseOnMouseEnter: true, // Dừng tự động khi hover chuột vào
-        // },
-
-        // Tắt tính năng vuốt qua
-        // simulateTouch: false, // Vô hiệu hóa hành động vuốt
+        });
     });
-})
-
+});

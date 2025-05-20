@@ -1,43 +1,50 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper(".carousel3 .swiper", {
-        direction: "horizontal", // Hướng chuyển động ngang
-        loop: false, // Cho phép lặp lại vòng quay slider
+    const carousels = document.querySelectorAll('.carousel3');
 
-        navigation: {
-            prevEl: ".carousel3 .swiper-button-prev", // Nút quay lại
-            nextEl: ".carousel3 .swiper-button-next", // Nút tiến lên
-        },
+    carousels.forEach(carousel => {
+        const swiperEl = carousel.querySelector('.swiper');
+        const prevBtn = carousel.querySelector('.swiper-button-prev');
+        const nextBtn = carousel.querySelector('.swiper-button-next');
 
-        effect: "slide", // Hiệu ứng chuyển động giữa các slide
+        new Swiper(swiperEl, {
+            direction: "horizontal", // Hướng chuyển động ngang
+            loop: false, // Cho phép lặp lại vòng quay slider
 
-        // min-width
-        breakpoints: {
-            100: {
-                slidesPerView: 1,
-                spaceBetween: 20,
+            navigation: {
+                prevEl: prevBtn, // Nút quay lại
+                nextEl: nextBtn, // Nút tiến lên
             },
-            600: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-            },
-            958: {
-                slidesPerView: 3,
-                spaceBetween: 20,
-            },
-            1207: {
-                slidesPerView: 4,
-                spaceBetween: 20,
-            },
-        },
 
-        // autoplay: {
-        //     delay: 1000, // Tự động chuyển slide sau mỗi 1 giây
-        //     disableOnInteraction: false, // Cho phép chuyển slide khi người dùng chạm vào
-        //     pauseOnMouseEnter: true, // Dừng tự động khi hover chuột vào
-        // },
+            effect: "slide", // Hiệu ứng chuyển động giữa các slide
 
-        // Tắt tính năng vuốt qua
-        // simulateTouch: false, // Vô hiệu hóa hành động vuốt
+            // min-width
+            breakpoints: {
+                100: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                600: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                958: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                1207: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+            },
+
+            // autoplay: {
+            //     delay: 1000, // Tự động chuyển slide sau mỗi 1 giây
+            //     disableOnInteraction: false, // Cho phép chuyển slide khi người dùng chạm vào
+            //     pauseOnMouseEnter: true, // Dừng tự động khi hover chuột vào
+            // },
+
+            // Tắt tính năng vuốt qua
+            // simulateTouch: false, // Vô hiệu hóa hành động vuốt
+        });
     });
-})
-
+});
