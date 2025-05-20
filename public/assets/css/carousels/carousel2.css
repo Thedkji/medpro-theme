@@ -6,10 +6,6 @@
 
 .carousel2 img {
     width: 100%;
-        height: clamp(175px, 25vw, 350px);
+    height: clamp(175px, 25vw, 350px);
     border-radius: var(--radius-lg);
-}
-
-.carousel2 .swiper-pagination {
-    bottom: -20px;
 }

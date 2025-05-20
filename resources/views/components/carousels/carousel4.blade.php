@@ -33,5 +33,5 @@
             @endif
         </div>
     </div>
-    <div class="swiper-pagination"></div>
+    <x-paginatiom-swiper />
 </div>
