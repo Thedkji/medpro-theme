@@ -4,7 +4,7 @@
 }
 .carousel4 .swiper-slide{
     width: 100%;
-    height: 260px;
+    height: auto;
 }
 .carousel4 img {
     width: 100%;
