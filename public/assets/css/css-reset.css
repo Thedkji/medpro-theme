@@ -162,7 +162,20 @@ button {
     top: 55%;
 }
 
-/* luôn luôn đặt 1 thẻ div có class .bg-div-content ở dưới bg-content  */
+.relative .swiper-pagination {
+    bottom: -20px;
+}
+
+.relative .swiper-pagination .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+}
+
+.relative .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: var(--color-primary);
+}
+
+/* 2 thẻ bg chịu trách nhiệm làm nền cho phần content  */
 .bg-div-content {
     background: linear-gradient(0deg, #fff, #ebf2ff);
     height: 35px;

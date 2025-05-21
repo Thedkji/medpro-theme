@@ -12,10 +12,10 @@
     width: 100%;
     background-image: url('../imgs/92b6d682-4b5a-4c94-ac54-97a077c0c6c5-homepage_banner.webp');
     background-size: 100% 100%;
-    background-color: red;
 }
-#home>.bannerHome>.container>h1{
-   text-align: center;
+
+#home>.bannerHome>.container>h1 {
+    text-align: center;
 }
 
 #home>.bannerHome h1:first-child {
@@ -92,4 +92,3 @@
 #home>.bannerHome .space-item ul>li span {
     width: 500px;
 }
-
