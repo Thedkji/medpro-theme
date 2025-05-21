@@ -10,6 +10,7 @@
         {{ $style ?? '' }}
     </style>
 @endonce
+
 <div class="carousel1 container relative">
     <x-title.title2 :title="$titleC" />
     <div class="swiper">

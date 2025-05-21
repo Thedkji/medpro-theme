@@ -5,7 +5,7 @@
     @push('scripts')
         <script src="./assets/js/carousels/carousel2.js"></script>
     @endpush
-     <style>
+    <style>
         {{ $style ?? '' }}
     </style>
 @endonce
@@ -17,7 +17,7 @@
                     <div class="swiper-slide">
                         <a href="{{ $carousel2->link ?? '###' }}">
                             <img src="{{ $carousel2->img ?? './assets/imgs/2e284ad2-7fcb-4476-be2f-10b04260ee5d-desktop_banner_trang_chuaa_treaan_desktop.webp' }}"
-                                alt="{{ $carousel2->alt ?? $carousel2->name ?? $carousel2->title ?? '' }}">
+                                alt="{{ $carousel2->alt ?? ($carousel2->name ?? ($carousel2->title ?? '')) }}">
                         </a>
                     </div>
                 @endforeach
@@ -33,5 +33,5 @@
             @endif
         </div>
     </div>
-    <div class="swiper-pagination"></div>
+    <x-paginatiom-swiper />
 </div>

@@ -1,38 +1,44 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper(".carousel4  .swiper", {
-        direction: "horizontal", // Hướng chuyển động ngang
-        loop: false, // Cho phép lặp lại vòng quay slider
-        slidesPerGroup: 1, //Mỗi lần chuyển chỉ chuyển 1 ảnh
-        effect: "slide", // Hiệu ứng chuyển động giữa các slide
+    const carousels = document.querySelectorAll('.carousel4');
 
-        // min-width
-        breakpoints: {
-            640: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-            },
-            768: {
-                slidesPerView: 1,
-                spaceBetween: 20,
-            },
-            1024: {
-                slidesPerView: 3,
-                spaceBetween: 20,
-            },
-        },
-        pagination: {
-            el: '.carousel4 .swiper-pagination',
-            clickable: true
-        }
+    carousels.forEach(carousel => {
+        const swiperEl = carousel.querySelector('.swiper');
+        const paginationEl = carousel.querySelector('.swiper-pagination');
 
-        // autoplay: {
-        //     delay: 1000, // Tự động chuyển slide sau mỗi 1 giây
-        //     disableOnInteraction: false, // Cho phép chuyển slide khi người dùng chạm vào
-        //     pauseOnMouseEnter: true, // Dừng tự động khi hover chuột vào
-        // },
+        new Swiper(swiperEl, {
+            direction: "horizontal", // Hướng chuyển động ngang
+            loop: false, // Cho phép lặp lại vòng quay slider
+            slidesPerGroup: 1, //Mỗi lần chuyển chỉ chuyển 1 ảnh
+            effect: "slide", // Hiệu ứng chuyển động giữa các slide
 
-        // Tắt tính năng vuốt qua
-        // simulateTouch: false, // Vô hiệu hóa hành động vuốt
+            // min-width
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            },
+            pagination: {
+                el: paginationEl,
+                clickable: true,
+            },
+
+            // autoplay: {
+            //     delay: 1000, // Tự động chuyển slide sau mỗi 1 giây
+            //     disableOnInteraction: false, // Cho phép chuyển slide khi người dùng chạm vào
+            //     pauseOnMouseEnter: true, // Dừng tự động khi hover chuột vào
+            // },
+
+            // Tắt tính năng vuốt qua
+            // simulateTouch: false, // Vô hiệu hóa hành động vuốt
+        });
     });
-})
-
+});
