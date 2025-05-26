@@ -1,0 +1,268 @@
+.container.appointment{
+    background: #e8f2f7;
+    min-height: 65vh;
+    color: #003553;
+}
+
+/* navigation  */
+.container.appointment .navigation .nav-bar{
+    display: flex;
+    padding-bottom: 20px;
+}
+.container.appointment .navigation .nav-bar li .nav-span{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}.container.appointment .navigation .nav-bar li .nav-span svg{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container.appointment .navigation .nav-bar li a{
+    color: #003553;
+    font-weight: 600;
+}
+.container.appointment .navigation .nav-bar li:last-of-type a {
+    color: #00b5f1;
+}
+
+/* appointment-form */
+.container.appointment .button-cancel{
+    max-width: 450px;
+    padding: 0 15px;
+    margin: auto;
+}
+.container.appointment .button-cancel button{
+    margin-top: 10px;
+    color: #003553;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgba(0, 0, 0, .85);
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+}
+.container.appointment .button-cancel button span{
+    color: #003553;
+}
+.container .appointment-form .title-h1 .name-h1{
+    font-family: Montserrat, sans-serif !important;
+    text-align: center;
+    background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%);
+    background-clip: text;
+    color: transparent;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.container .appointment-form .title-h1 .slogan{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container .appointment-form .content-appointment-form{
+    max-width: 450px;
+    margin: auto;
+    height: 100%;
+    padding: 15px;
+    border-radius: 8px !important;
+    background: #fff;
+    box-shadow: 4px 8px 30px 0 rgba(177, 196, 218, .35);
+    transition: all .3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 16px !important;
+    border: none;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+.container .appointment-form .content-appointment-form:hover{
+    border: 1px solid #00b5f1;
+    box-shadow: 0 4px 10px rgba(0, 181, 241, 0.2);
+    transform: translateY(-2px);
+}
+
+.container .appointment-form .content-appointment-form .item-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container .appointment-form .content-appointment-form .item-content .items-li{
+    min-width: 25%;
+    padding: 10px;
+}
+.container .appointment-form .content-appointment-form .content-profile .item-profile{
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+    margin: 0;
+    gap: 7px;
+}
+.container .appointment-form .content-appointment-form .content-profile{
+    display: flex;
+    gap: 7px;
+    align-items: flex-start;
+    min-width: 150px;
+    padding: 4px 0;
+}
+.container .appointment-form .content-appointment-form .content-profile .item-name{
+    word-wrap: break-word;
+    flex: 1 1;
+    min-width: 0;
+    padding-left: 5px;
+    color: var(--primary-body-text, #003553);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.container .appointment-form .content-appointment-form .content-profile .item-name-title{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: var(--primary-gradient-title, linear-gradient(40deg, #00b5f1 0, #00e0ff 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-left: 0;
+    font-family: Roboto;
+}
+.container .appointment-form .content-appointment-form .content-profile-btn{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #dfe3eb;
+}
+.container .appointment-form .content-appointment-form .content-profile-btn .styles_btnDelete{
+    background-color: rgba(253, 57, 122, .1);
+    color: #fd397a;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    margin-right: 15px;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.container .appointment-form .content-appointment-form .content-profile-btn .styles_btnEdit{
+    background-color: rgba(54, 153, 255, .1);
+    color: #3699ff;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    margin-right: 15px;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.container .appointment-form .content-appointment-form .content-profile-btn .styles_actionsBtn{
+    padding: 8px 12px !important;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    min-width: 105px;
+    justify-content: space-between;
+    border: none;
+    background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%) !important;
+    border-radius: 8px;
+    gap: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .appointment-form .content-appointment-form .content-profile-btn .styles_actionsBtn .icon-profile-btn{
+    display: flex;
+    position: absolute;
+    right: 10px; /* Căn icon ban đầu ở cạnh phải */
+    animation: slideRight 1s infinite linear; /* Hiệu ứng chạy từ trái sang phải */
+}
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100%); /* Bắt đầu từ bên trái nút */
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(0); /* Đi đến cạnh phải của chữ "Tiếp tục" */
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0); /* Dừng lại ở cạnh phải */
+        opacity: 0;
+    }
+}
+
+.container .appointment-form .content-appointment-form .content-profile-btn{
+    position: relative;
+}
+.container .appointment-form .content-appointment-form .icon-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    background-color: #00b5f1;
+    border-bottom-left-radius: 100%;
+    box-shadow: 0 4px 10px rgba(0, 181, 241, 0.2);
+    opacity: 0; 
+    transform: translate(10px, -10px); 
+    transition: all 0.3s ease;
+}
+
+.container .appointment-form .content-appointment-form:hover .icon-hover {
+    opacity: 1; 
+    transform: translate(0, 0);
+    box-shadow: 0 1px 2px 0 #00b5f1, 0 1px 3px 1px #00b5f1;
+}
+.container .appointment-form .content-appointment-form .icon-hover svg{
+    color: #fff;
+    margin-left: 15px;
+}
+.container.appointment .button-cancel{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.container.appointment .button-cancel .styles_addProfile{
+    padding: 10px 8px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%) !important;
+    border-radius: 8px;
+}
+.container.appointment .button-cancel .styles_addProfile span{
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .container .appointment-form .title-h1 .name-h1 {
+        font-size: 25px;
+    }
+    .container.appointment .navigation .nav-bar {
+    display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container .appointment-form .content-appointment-form .content-profile .item-profile {
+        min-width: 120px;
+    }
+}

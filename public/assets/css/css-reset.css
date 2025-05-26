@@ -123,7 +123,7 @@ button {
     height: 30px;
     background-color: white;
     box-shadow: var(--shadow-base);
-    border-radius: 9999px;
+    border-radius: 100%;
 }
 
 .swiper-button-prev svg {
@@ -138,7 +138,7 @@ button {
     height: 30px;
     background-color: white;
     box-shadow: var(--shadow-base);
-    border-radius: 9999px;
+    border-radius: 100%;
 }
 
 .swiper-button-next svg {
