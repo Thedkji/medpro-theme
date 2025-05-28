@@ -1,0 +1,293 @@
+.container.appointment{
+    background: #e8f2f7;
+    min-height: 65vh;
+    color: #003553;
+}
+
+/* navigation  */
+.container.appointment .navigation .nav-bar{
+    display: flex;
+    padding-bottom: 20px;
+}
+.container.appointment .navigation .nav-bar li .nav-span{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}.container.appointment .navigation .nav-bar li .nav-span svg{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.container.appointment .navigation .nav-bar li a{
+    color: #003553;
+    font-weight: 600;
+}
+.container.appointment .navigation .nav-bar li:last-of-type a {
+    color: #00b5f1;
+}
+
+.container .appointment-form .title-h1 .name-h1{
+    font-family: Montserrat, sans-serif !important;
+    text-align: center;
+    background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%);
+    background-clip: text;
+    color: transparent;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container .appointment-form .content-appointment-form .title-content .title-1{
+    padding: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #11a2f3;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    border: 1px solid #c1d5e9;
+    background: #d4e9ff;
+}
+.container .appointment-form .content-appointment-form .title-content .title-2{
+    color: #ff3b30;
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.container .appointment-form .content-appointment-form .title-content-form{
+    display: flex;
+    width: 100%; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.container .appointment-form .content-appointment-form .title-content-form p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 23.44px;
+    color: #003553;
+    padding-right: 12px;
+    width: 30%;
+    max-width: 220px;
+    min-width: 220px;
+}
+.container .appointment-form .content-appointment-form .title-content-form .border-center{
+    border-top: 1px solid #cbd2d9;
+    width: 80%;
+}   
+.container .appointment-form .content-appointment-form .content-form{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px;
+}
+.container .appointment-form .content-appointment-form .content-form .form-row1 .item-1{
+    display: grid; 
+    grid-template-columns: 1fr;
+}
+.container .appointment-form .content-appointment-form .content-form .form-row2 .item-2{
+    display: grid; 
+    grid-template-columns: 1fr;
+}
+.container .appointment-form .content-appointment-form .content-form .form-row2 .item-2 .item-22{
+    width: 100%;
+}
+.container .appointment-form .content-appointment-form .content-form .form-row2 .item-2 .item-22 #year{
+    width: 30%;
+}
+.container .appointment-form .content-appointment-form .content-form .form-row2 .item-2 .item-22 #month{
+    width: 30%;
+}
+.container .appointment-form .content-appointment-form .content-form .form-row2 .item-2 .item-22 #day{
+    width: 30%;
+}
+
+.container .appointment-form .content-appointment-form .content-form .address-cccd .form-row3{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+.container .appointment-form .content-appointment-form .content-form label{
+    padding: 0 0 8px;
+    line-height: 1.5715;
+    white-space: normal;
+    text-align: left;
+    color: #003553;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container .appointment-form .content-appointment-form .content-form label .note{
+    font-size: 100%;
+    color: red;
+}
+.container .appointment-form .content-appointment-form .content-form input{
+    height: 50px;
+    padding: 15px 16px 16px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+}
+
+.container .appointment-form .content-appointment-form .content-form-3 .form-row3{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px;
+}
+.container .appointment-form .content-appointment-form .content-form-3 .form-row3 .item-3{
+    display: grid; 
+    grid-template-columns: 1fr;
+}
+.container .appointment-form .content-appointment-form .content-form-3 label{
+    padding: 0 0 8px;
+    line-height: 1.5715;
+    white-space: normal;
+    text-align: left;
+    color: #003553;
+    font-size: 20px;
+    font-weight: 500;
+}
+.container .appointment-form .content-appointment-form .content-form-3 input{
+    height: 50px;
+    padding: 15px 16px 16px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+}
+.container .appointment-form .content-appointment-form .content-form-3 .form-row3 .item-3 p{
+    color: red;
+}
+.container .appointment-form .content-appointment-form .content-form-3 .form-row3 .item-3.item_3{
+    padding-top: 20px;
+}
+.container .appointment-form .content-appointment-form .content-submit button{
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 4px 8px 30px 0 rgba(177, 196, 218, .35);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 0;
+    width: 121px;
+    border: none;
+}
+.container .appointment-form .content-appointment-form .content-submit{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 20px;
+}
+.container .appointment-form .content-appointment-form .content-submit .btn-reset {
+    background: #ffb54a;
+}       
+.container .appointment-form .content-appointment-form .content-submit .btn-create {
+    background: var(--primary-gradient-title, linear-gradient(40deg, #00b5f1 0, #00e0ff 100%));
+}       
+
+.container .appointment-form .content-appointment-form-2{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.container .appointment-form .content-appointment-form-2 .row_11 .center-content{
+    text-align: center;
+}
+.container .appointment-form .content-appointment-form-2 .row_11 .center-content.form{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.container .appointment-form .content-appointment-form-2 .row_22{
+    text-align: center;
+}
+.container .appointment-form .content-appointment-form-2 .row_22 .img_BHYT{
+    margin-top: 15px;
+}
+.container .appointment-form .content-appointment-form-2 .row_11 .center-content input{
+    height: 50px;
+    padding: 15px 16px 16px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    margin-top: 30px;
+}
+.container .appointment-form .content-appointment-form-2 .row_11 .center-content button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    min-height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background: var(--primary-gradient-title, linear-gradient(40deg, #00b5f1 0, #00e0ff 100%));
+    box-shadow: 4px 8px 30px 0 rgba(177, 196, 218, .35);
+}
+.container .appointment-form .never-ever{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+    border-top: 1px solid #f0f0f0;
+}
+.container .appointment-form .ever{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.ever, .never {
+    cursor: pointer;
+}
+.ever.active, .never.active {
+    color: #00b5f1;
+    background: linear-gradient(83.63deg, #00b5f1 33.34%, #00e0ff 113.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.content-appointment-form, .content-appointment-form-2 {
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.hidden {
+    display: none !important;
+    opacity: 0;
+    visibility: hidden;
+}
+.content-appointment-form:not(.hidden), .content-appointment-form-2:not(.hidden) {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 680px) {
+    .container .appointment-form .content-appointment-form-2 {
+        display: grid !important;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .container .appointment-form .title-h1 .name-h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .container .appointment-form .never-ever {
+        font-size: 16px;
+    }
+    .container .appointment-form .content-appointment-form-2 .row_11 .center-content input {
+        height: 40px;
+        margin-top: 10px;
+    }
+    .container .appointment-form .content-appointment-form-2 .row_11 .center-content button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        min-height: 40px;
+    }
+    .container.appointment .navigation .nav-bar {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
