@@ -26,5 +26,7 @@
     </style>
 @endonce
 <div class="order">
-    <button class="{{ $class ?? '' }}">{{ $content ?? 'Đặt khám ngay' }}</button>
+    <a href="/medical-booking">
+        <button class="{{ $class ?? '' }}">{{ $content ?? 'Đặt khám ngay' }}</button>
+    </a>
 </div>
